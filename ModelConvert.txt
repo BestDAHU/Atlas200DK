@@ -1,0 +1,30 @@
+insert op file content: 
+aipp_op { 
+related_input_rank : 0
+src_image_size_w : 512
+src_image_size_h : 512
+crop : false
+aipp_mode: static
+input_format : RGB888_U8
+csc_switch : false
+rbuv_swap_switch : false
+mean_chn_0 : 104
+mean_chn_1 : 117
+mean_chn_2 : 123
+min_chn_0 : 0.0
+min_chn_1 : 0.0
+min_chn_2 : 0.0
+var_reci_chn_0 : 0.225
+var_reci_chn_1 : 0.224
+var_reci_chn_2 : 0.229
+}
+
+
+Start to convert model
+export PATH=/usr/local/python3.7.5/bin:$PATH:/home/dahu/Ascend/ascend-toolkit/20.1.rc1/atc/ccec_compiler/bin:/home/dahu/Ascend/ascend-toolkit/20.1.rc1/atc/bin && export PYTHONPATH=$PYTHONPATH:/home/dahu/Ascend/ascend-toolkit/20.1.rc1/atc/python/site-packages:/home/dahu/Ascend/ascend-toolkit/20.1.rc1/atc/python/site-packages/auto_tune.egg/auto_tune:/home/dahu/Ascend/ascend-toolkit/20.1.rc1/atc/python/site-packages/schedule_search.egg:/home/dahu/Ascend/ascend-toolkit/20.1.rc1/opp/op_impl/built-in/ai_core/tbe && export LD_LIBRARY_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/atc/lib64:/home/dahu/Ascend/ascend-toolkit/20.1.rc1/driver/lib64:/home/dahu/Ascend/ascend-toolkit/20.1.rc1/add-ons:/usr/local/python3.7.5/lib:/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib/lib64 && export SLOG_PRINT_TO_STDOUT=1 && export ASCEND_OPP_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/opp && /home/dahu/Ascend/ascend-toolkit/20.1.rc1/atc/bin/atc --input_shape="data:1,3,512,512" --weight="/home/dahu/models/MoblieNetSSD/mssd512_voc.caffemodel" --check_report=/home/dahu/modelzoo/mssd512_voc/device/network_analysis.report --input_format=NCHW --output="/home/dahu/modelzoo/mssd512_voc/device/mssd512_voc" --soc_version=Ascend310 --insert_op_conf=/home/dahu/modelzoo/mssd512_voc/device/insert_op.cfg --framework=0 --model="/home/dahu/models/MoblieNetSSD/mssd512_voc.prototxt" 
+ATC start working now, please wait for a moment.
+ATC run success, welcome to the next use.
+Convert model environment variables: 
+export PATH=/usr/local/python3.7.5/bin:$PATH:/home/dahu/Ascend/ascend-toolkit/20.1.rc1/atc/ccec_compiler/bin:/home/dahu/Ascend/ascend-toolkit/20.1.rc1/atc/bin && export PYTHONPATH=$PYTHONPATH:/home/dahu/Ascend/ascend-toolkit/20.1.rc1/atc/python/site-packages:/home/dahu/Ascend/ascend-toolkit/20.1.rc1/atc/python/site-packages/auto_tune.egg/auto_tune:/home/dahu/Ascend/ascend-toolkit/20.1.rc1/atc/python/site-packages/schedule_search.egg:/home/dahu/Ascend/ascend-toolkit/20.1.rc1/opp/op_impl/built-in/ai_core/tbe && export LD_LIBRARY_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/atc/lib64:/home/dahu/Ascend/ascend-toolkit/20.1.rc1/driver/lib64:/home/dahu/Ascend/ascend-toolkit/20.1.rc1/add-ons:/usr/local/python3.7.5/lib:/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib/lib64 && export SLOG_PRINT_TO_STDOUT=1 && export ASCEND_OPP_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/opp
+Convert model command: 
+/home/dahu/Ascend/ascend-toolkit/20.1.rc1/atc/bin/atc --input_shape="data:1,3,512,512" --weight="/home/dahu/models/MoblieNetSSD/mssd512_voc.caffemodel" --check_report=/home/dahu/modelzoo/mssd512_voc/device/network_analysis.report --input_format=NCHW --output="/home/dahu/modelzoo/mssd512_voc/device/mssd512_voc" --soc_version=Ascend310 --insert_op_conf=/home/dahu/modelzoo/mssd512_voc/device/insert_op.cfg --framework=0 --model="/home/dahu/models/MoblieNetSSD/mssd512_voc.prototxt" 
