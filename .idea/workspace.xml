@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7f06ac66-5921-4b8f-9dfd-2ca88e4202c6" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1m8mQyeQhcg41uTRAp0RSMbKZRd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Ascend App.classification">
+    <configuration name="Atlas200DK" type="Ascend App Configuration Type" factoryName="Ascend App" hostip="192.168.1.13" commandArguments="" debugPort="">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Ascend App Configuration Type" factoryName="Ascend App" hostip="192.168.1.13" commandArguments="" debugPort="">
+      <method v="2" />
+    </configuration>
+    <configuration name="classification" type="Ascend App Configuration Type" factoryName="Ascend App" hostip="192.168.1.13" commandArguments="../data/" debugPort="" ProfilingParams="{&quot;advanced_acl&quot;:&quot;false&quot;,&quot;--ai_core_profiling_mode&quot;:&quot;task-based&quot;,&quot;ProfilingStatus&quot;:&quot;off&quot;,&quot;--ai_core_metrics&quot;:&quot;aicorePipeline&quot;,&quot;advanced_ge&quot;:&quot;false&quot;,&quot;hasError&quot;:&quot;off&quot;,&quot;--profiling_options&quot;:&quot;task_trace&quot;,&quot;advanced_runtime&quot;:&quot;false&quot;,&quot;advanced_ts&quot;:&quot;false&quot;,&quot;--aicore_sampling_interval&quot;:&quot;10&quot;}">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="450" y="155" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608884753503">
+      <screen x="67" y="27" width="1851" height="942" />
+    </state>
+    <state x="450" y="155" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1851.942@67.27.1851.942" timestamp="1608884753503" />
+    <state x="687" y="297" width="600" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608962893554">
+      <screen x="67" y="27" width="1851" height="939" />
+    </state>
+    <state x="687" y="297" width="600" height="396" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1851.939@67.27.1851.939" timestamp="1608962893554" />
+    <state x="676" y="185" width="424" height="513" key="FileChooserDialogImpl" timestamp="1608903893081">
+      <screen x="67" y="27" width="1851" height="942" />
+    </state>
+    <state x="485" y="157" width="424" height="513" key="FileChooserDialogImpl/67.27.1271.775@67.27.1271.775" timestamp="1608888644998" />
+    <state x="485" y="157" width="424" height="513" key="FileChooserDialogImpl/67.27.1271.777@67.27.1271.777" timestamp="1608900520260" />
+    <state x="676" y="185" width="424" height="513" key="FileChooserDialogImpl/67.27.1851.942@67.27.1851.942" timestamp="1608903893081" />
+    <state width="1828" height="233" key="GridCell.Tab.0.bottom" timestamp="1609122040760">
+      <screen x="67" y="27" width="1851" height="939" />
+    </state>
+    <state width="1219" height="289" key="GridCell.Tab.0.bottom/67.27.1242.672@67.27.1242.672" timestamp="1608963418270" />
+    <state width="1248" height="314" key="GridCell.Tab.0.bottom/67.27.1271.775@67.27.1271.775" timestamp="1608888653962" />
+    <state width="1248" height="382" key="GridCell.Tab.0.bottom/67.27.1271.777@67.27.1271.777" timestamp="1608900565371" />
+    <state width="1275" height="233" key="GridCell.Tab.0.bottom/67.27.1298.799@67.27.1298.799" timestamp="1609120671039" />
+    <state width="1828" height="233" key="GridCell.Tab.0.bottom/67.27.1851.939@67.27.1851.939" timestamp="1609122040760" />
+    <state width="1828" height="454" key="GridCell.Tab.0.bottom/67.27.1851.942@67.27.1851.942" timestamp="1608904334919" />
+    <state width="1828" height="233" key="GridCell.Tab.0.center" timestamp="1609122040759">
+      <screen x="67" y="27" width="1851" height="939" />
+    </state>
+    <state width="1219" height="289" key="GridCell.Tab.0.center/67.27.1242.672@67.27.1242.672" timestamp="1608963418269" />
+    <state width="1248" height="314" key="GridCell.Tab.0.center/67.27.1271.775@67.27.1271.775" timestamp="1608888653961" />
+    <state width="1248" height="382" key="GridCell.Tab.0.center/67.27.1271.777@67.27.1271.777" timestamp="1608900565370" />
+    <state width="1275" height="233" key="GridCell.Tab.0.center/67.27.1298.799@67.27.1298.799" timestamp="1609120671038" />
+    <state width="1828" height="233" key="GridCell.Tab.0.center/67.27.1851.939@67.27.1851.939" timestamp="1609122040759" />
+    <state width="1828" height="454" key="GridCell.Tab.0.center/67.27.1851.942@67.27.1851.942" timestamp="1608904334917" />
+    <state width="1828" height="233" key="GridCell.Tab.0.left" timestamp="1609122040759">
+      <screen x="67" y="27" width="1851" height="939" />
+    </state>
+    <state width="1219" height="289" key="GridCell.Tab.0.left/67.27.1242.672@67.27.1242.672" timestamp="1608963418269" />
+    <state width="1248" height="314" key="GridCell.Tab.0.left/67.27.1271.775@67.27.1271.775" timestamp="1608888653961" />
+    <state width="1248" height="382" key="GridCell.Tab.0.left/67.27.1271.777@67.27.1271.777" timestamp="1608900565370" />
+    <state width="1275" height="233" key="GridCell.Tab.0.left/67.27.1298.799@67.27.1298.799" timestamp="1609120671037" />
+    <state width="1828" height="233" key="GridCell.Tab.0.left/67.27.1851.939@67.27.1851.939" timestamp="1609122040759" />
+    <state width="1828" height="454" key="GridCell.Tab.0.left/67.27.1851.942@67.27.1851.942" timestamp="1608904334916" />
+    <state width="1828" height="233" key="GridCell.Tab.0.right" timestamp="1609122040760">
+      <screen x="67" y="27" width="1851" height="939" />
+    </state>
+    <state width="1219" height="289" key="GridCell.Tab.0.right/67.27.1242.672@67.27.1242.672" timestamp="1608963418269" />
+    <state width="1248" height="314" key="GridCell.Tab.0.right/67.27.1271.775@67.27.1271.775" timestamp="1608888653962" />
+    <state width="1248" height="382" key="GridCell.Tab.0.right/67.27.1271.777@67.27.1271.777" timestamp="1608900565370" />
+    <state width="1275" height="233" key="GridCell.Tab.0.right/67.27.1298.799@67.27.1298.799" timestamp="1609120671038" />
+    <state width="1828" height="233" key="GridCell.Tab.0.right/67.27.1851.939@67.27.1851.939" timestamp="1609122040760" />
+    <state width="1828" height="454" key="GridCell.Tab.0.right/67.27.1851.942@67.27.1851.942" timestamp="1608904334919" />
+    <state x="656" y="225" key="run.anything.popup" timestamp="1608887736863">
+      <screen x="67" y="27" width="1851" height="942" />
+    </state>
+    <state x="656" y="225" key="run.anything.popup/67.27.1851.942@67.27.1851.942" timestamp="1608887736863" />
+  </component>
+</project>

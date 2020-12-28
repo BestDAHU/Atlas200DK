@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/dahu/AscendProjects/classification/build/cmake/src",
+  "command": "/usr/bin/c++   -I/home/dahu/ascend_ddk/x86/include/opencv4 -I/home/dahu/ascend_ddk/x86/include -I/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/include -I/home/dahu/AscendProjects/classification/src/../inc    -std=c++11 -o CMakeFiles/main.dir/utils.cpp.o -c /home/dahu/AscendProjects/classification/src/utils.cpp",
+  "file": "/home/dahu/AscendProjects/classification/src/utils.cpp"
+},
+{
+  "directory": "/home/dahu/AscendProjects/classification/build/cmake/src",
+  "command": "/usr/bin/c++   -I/home/dahu/ascend_ddk/x86/include/opencv4 -I/home/dahu/ascend_ddk/x86/include -I/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/include -I/home/dahu/AscendProjects/classification/src/../inc    -std=c++11 -o CMakeFiles/main.dir/model_process.cpp.o -c /home/dahu/AscendProjects/classification/src/model_process.cpp",
+  "file": "/home/dahu/AscendProjects/classification/src/model_process.cpp"
+},
+{
+  "directory": "/home/dahu/AscendProjects/classification/build/cmake/src",
+  "command": "/usr/bin/c++   -I/home/dahu/ascend_ddk/x86/include/opencv4 -I/home/dahu/ascend_ddk/x86/include -I/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/include -I/home/dahu/AscendProjects/classification/src/../inc    -std=c++11 -o CMakeFiles/main.dir/classify_process.cpp.o -c /home/dahu/AscendProjects/classification/src/classify_process.cpp",
+  "file": "/home/dahu/AscendProjects/classification/src/classify_process.cpp"
+},
+{
+  "directory": "/home/dahu/AscendProjects/classification/build/cmake/src",
+  "command": "/usr/bin/c++   -I/home/dahu/ascend_ddk/x86/include/opencv4 -I/home/dahu/ascend_ddk/x86/include -I/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/include -I/home/dahu/AscendProjects/classification/src/../inc    -std=c++11 -o CMakeFiles/main.dir/main.cpp.o -c /home/dahu/AscendProjects/classification/src/main.cpp",
+  "file": "/home/dahu/AscendProjects/classification/src/main.cpp"
+}
+]

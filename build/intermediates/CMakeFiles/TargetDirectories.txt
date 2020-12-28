@@ -1,0 +1,13 @@
+/home/dahu/AscendProjects/Atlas200DK/build/intermediates/CMakeFiles/install/strip.dir
+/home/dahu/AscendProjects/Atlas200DK/build/intermediates/CMakeFiles/install.dir
+/home/dahu/AscendProjects/Atlas200DK/build/intermediates/CMakeFiles/install/local.dir
+/home/dahu/AscendProjects/Atlas200DK/build/intermediates/CMakeFiles/list_install_components.dir
+/home/dahu/AscendProjects/Atlas200DK/build/intermediates/CMakeFiles/edit_cache.dir
+/home/dahu/AscendProjects/Atlas200DK/build/intermediates/CMakeFiles/rebuild_cache.dir
+/home/dahu/AscendProjects/Atlas200DK/build/intermediates/src/CMakeFiles/install/strip.dir
+/home/dahu/AscendProjects/Atlas200DK/build/intermediates/src/CMakeFiles/edit_cache.dir
+/home/dahu/AscendProjects/Atlas200DK/build/intermediates/src/CMakeFiles/main.dir
+/home/dahu/AscendProjects/Atlas200DK/build/intermediates/src/CMakeFiles/rebuild_cache.dir
+/home/dahu/AscendProjects/Atlas200DK/build/intermediates/src/CMakeFiles/list_install_components.dir
+/home/dahu/AscendProjects/Atlas200DK/build/intermediates/src/CMakeFiles/install/local.dir
+/home/dahu/AscendProjects/Atlas200DK/build/intermediates/src/CMakeFiles/install.dir

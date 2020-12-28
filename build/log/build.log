@@ -1,0 +1,504 @@
+2020-12-25 00:08:43 [ INFO ] Build command: 
+2020-12-25 00:08:43 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/classification/build/intermediates && rm -rf * && cmake /home/dahu/AscendProjects/classification -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo classification build successfully.
+2020-12-25 00:08:43 [ INFO ] -- The C compiler identification is GNU 7.5.0
+2020-12-25 00:08:43 [ INFO ] -- The CXX compiler identification is GNU 7.5.0
+2020-12-25 00:08:43 [ INFO ] -- Check for working C compiler: /usr/bin/cc
+2020-12-25 00:08:43 [ INFO ] -- Check for working C compiler: /usr/bin/cc -- works
+2020-12-25 00:08:43 [ INFO ] -- Detecting C compiler ABI info
+2020-12-25 00:08:44 [ INFO ] -- Detecting C compiler ABI info - done
+2020-12-25 00:08:44 [ INFO ] -- Detecting C compile features
+2020-12-25 00:08:44 [ INFO ] -- Detecting C compile features - done
+2020-12-25 00:08:44 [ INFO ] -- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++
+2020-12-25 00:08:44 [ INFO ] -- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++ -- works
+2020-12-25 00:08:44 [ INFO ] -- Detecting CXX compiler ABI info
+2020-12-25 00:08:45 [ INFO ] -- Detecting CXX compiler ABI info - done
+2020-12-25 00:08:45 [ INFO ] -- Detecting CXX compile features
+2020-12-25 00:08:45 [ INFO ] -- Detecting CXX compile features - done
+2020-12-25 00:08:45 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-25 00:08:45 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-25 00:08:45 [ INFO ] -- Configuring done
+2020-12-25 00:08:45 [ INFO ] -- Generating done
+2020-12-25 00:08:45 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/classification/build/intermediates
+2020-12-25 00:08:45 [ INFO ] Scanning dependencies of target main
+2020-12-25 00:08:45 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/utils.cpp.o
+2020-12-25 00:08:48 [ INFO ] [ 40%] Building CXX object src/CMakeFiles/main.dir/model_process.cpp.o
+2020-12-25 00:08:50 [ INFO ] [ 60%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-25 00:08:54 [ INFO ] [ 80%] Building CXX object src/CMakeFiles/main.dir/main.cpp.o
+2020-12-25 00:08:56 [ INFO ] [100%] Linking CXX executable ../../../out/main
+2020-12-25 00:08:56 [ INFO ] [100%] Built target main
+2020-12-25 00:08:56 [ INFO ] classification build successfully.
+2020-12-25 00:37:40 [ INFO ] Build command: 
+2020-12-25 00:37:40 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/classification/build/intermediates && cmake /home/dahu/AscendProjects/classification -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo classification build successfully.
+2020-12-25 00:37:40 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-25 00:37:40 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-25 00:37:40 [ INFO ] -- Configuring done
+2020-12-25 00:37:40 [ INFO ] -- Generating done
+2020-12-25 00:37:40 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/classification/build/intermediates
+2020-12-25 00:37:40 [ INFO ] Scanning dependencies of target main
+2020-12-25 00:37:40 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-25 00:37:43 [ INFO ] [ 40%] Building CXX object src/CMakeFiles/main.dir/main.cpp.o
+2020-12-25 00:37:45 [ INFO ] [ 60%] Linking CXX executable ../../../out/main
+2020-12-25 00:37:46 [ INFO ] [100%] Built target main
+2020-12-25 00:37:46 [ INFO ] classification build successfully.
+2020-12-25 00:46:11 [ INFO ] Build command: 
+2020-12-25 00:46:11 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/classification/build/intermediates && cmake /home/dahu/AscendProjects/classification -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo classification build successfully.
+2020-12-25 00:46:11 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-25 00:46:11 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-25 00:46:11 [ INFO ] -- Configuring done
+2020-12-25 00:46:11 [ INFO ] -- Generating done
+2020-12-25 00:46:11 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/classification/build/intermediates
+2020-12-25 00:46:11 [ INFO ] Scanning dependencies of target main
+2020-12-25 00:46:11 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-25 00:46:15 [ INFO ] [ 40%] Building CXX object src/CMakeFiles/main.dir/main.cpp.o
+2020-12-25 00:46:17 [ INFO ] [ 60%] Linking CXX executable ../../../out/main
+2020-12-25 00:46:17 [ INFO ] [100%] Built target main
+2020-12-25 00:46:17 [ INFO ] classification build successfully.
+2020-12-25 00:46:58 [ INFO ] Build command: 
+2020-12-25 00:46:58 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/classification/build/intermediates && cmake /home/dahu/AscendProjects/classification -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo classification build successfully.
+2020-12-25 00:46:58 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-25 00:46:58 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-25 00:46:58 [ INFO ] -- Configuring done
+2020-12-25 00:46:58 [ INFO ] -- Generating done
+2020-12-25 00:46:58 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/classification/build/intermediates
+2020-12-25 00:46:58 [ INFO ] Scanning dependencies of target main
+2020-12-25 00:46:58 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-25 00:47:02 [ INFO ] [ 40%] Linking CXX executable ../../../out/main
+2020-12-25 00:47:02 [ INFO ] [100%] Built target main
+2020-12-25 00:47:02 [ INFO ] classification build successfully.
+2020-12-25 00:47:18 [ INFO ] Build command: 
+2020-12-25 00:47:18 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/classification/build/intermediates && cmake /home/dahu/AscendProjects/classification -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo classification build successfully.
+2020-12-25 00:47:18 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-25 00:47:18 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-25 00:47:18 [ INFO ] -- Configuring done
+2020-12-25 00:47:18 [ INFO ] -- Generating done
+2020-12-25 00:47:18 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/classification/build/intermediates
+2020-12-25 00:47:18 [ INFO ] Scanning dependencies of target main
+2020-12-25 00:47:18 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-25 00:47:21 [ INFO ] [ 40%] Linking CXX executable ../../../out/main
+2020-12-25 00:47:21 [ INFO ] [100%] Built target main
+2020-12-25 00:47:21 [ INFO ] classification build successfully.
+2020-12-25 00:50:23 [ INFO ] Build command: 
+2020-12-25 00:50:23 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/classification/build/intermediates && cmake /home/dahu/AscendProjects/classification -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo classification build successfully.
+2020-12-25 00:50:24 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-25 00:50:24 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-25 00:50:24 [ INFO ] -- Configuring done
+2020-12-25 00:50:24 [ INFO ] -- Generating done
+2020-12-25 00:50:24 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/classification/build/intermediates
+2020-12-25 00:50:24 [ INFO ] Scanning dependencies of target main
+2020-12-25 00:50:24 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-25 00:50:27 [ INFO ] [ 40%] Linking CXX executable ../../../out/main
+2020-12-25 00:50:27 [ INFO ] [100%] Built target main
+2020-12-25 00:50:27 [ INFO ] classification build successfully.
+2020-12-25 01:04:31 [ INFO ] Build command: 
+2020-12-25 01:04:31 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/classification/build/intermediates && cmake /home/dahu/AscendProjects/classification -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo classification build successfully.
+2020-12-25 01:04:31 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-25 01:04:31 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-25 01:04:31 [ INFO ] -- Configuring done
+2020-12-25 01:04:31 [ INFO ] -- Generating done
+2020-12-25 01:04:31 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/classification/build/intermediates
+2020-12-25 01:04:31 [ INFO ] Scanning dependencies of target main
+2020-12-25 01:04:31 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-25 01:04:34 [ INFO ] [ 40%] Linking CXX executable ../../../out/main
+2020-12-25 01:04:34 [ INFO ] [100%] Built target main
+2020-12-25 01:04:34 [ INFO ] classification build successfully.
+2020-12-25 01:17:33 [ INFO ] Build command: 
+2020-12-25 01:17:33 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/classification/build/intermediates && cmake /home/dahu/AscendProjects/classification -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo classification build successfully.
+2020-12-25 01:17:33 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-25 01:17:33 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-25 01:17:33 [ INFO ] -- Configuring done
+2020-12-25 01:17:33 [ INFO ] -- Generating done
+2020-12-25 01:17:33 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/classification/build/intermediates
+2020-12-25 01:17:33 [ INFO ] Scanning dependencies of target main
+2020-12-25 01:17:33 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-25 01:17:35 [ INFO ] /home/dahu/AscendProjects/classification/src/classify_process.cpp: In member function 'Result ClassifyProcess::Preprocess(const string&)':
+2020-12-25 01:17:35 [ ERROR ] /home/dahu/AscendProjects/classification/src/classify_process.cpp:132:45: error: 'cv2' was not declared in this scope
+2020-12-25 01:17:35 [ INFO ]      cv::Mat origMat = cv::cvtColor(origMat1,cv2.COLOR_BGR2RGB);
+2020-12-25 01:17:35 [ INFO ]                                              ^~~
+2020-12-25 01:17:35 [ INFO ] /home/dahu/AscendProjects/classification/src/classify_process.cpp:132:45: note: suggested alternative: 'cvT'
+2020-12-25 01:17:35 [ INFO ]      cv::Mat origMat = cv::cvtColor(origMat1,cv2.COLOR_BGR2RGB);
+2020-12-25 01:17:35 [ INFO ]                                              ^~~
+2020-12-25 01:17:35 [ INFO ]                                              cvT
+2020-12-25 01:17:36 [ ERROR ] src/CMakeFiles/main.dir/build.make:110: recipe for target 'src/CMakeFiles/main.dir/classify_process.cpp.o' failed
+2020-12-25 01:17:36 [ ERROR ] make[2]: *** [src/CMakeFiles/main.dir/classify_process.cpp.o] Error 1
+2020-12-25 01:17:36 [ ERROR ] CMakeFiles/Makefile2:85: recipe for target 'src/CMakeFiles/main.dir/all' failed
+2020-12-25 01:17:36 [ ERROR ] make[1]: *** [src/CMakeFiles/main.dir/all] Error 2
+2020-12-25 01:17:36 [ ERROR ] Makefile:129: recipe for target 'all' failed
+2020-12-25 01:17:36 [ ERROR ] make: *** [all] Error 2
+2020-12-25 01:18:01 [ INFO ] Build command: 
+2020-12-25 01:18:01 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/classification/build/intermediates && cmake /home/dahu/AscendProjects/classification -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo classification build successfully.
+2020-12-25 01:18:01 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-25 01:18:01 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-25 01:18:01 [ INFO ] -- Configuring done
+2020-12-25 01:18:01 [ INFO ] -- Generating done
+2020-12-25 01:18:01 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/classification/build/intermediates
+2020-12-25 01:18:01 [ INFO ] Scanning dependencies of target main
+2020-12-25 01:18:01 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-25 01:18:03 [ INFO ] /home/dahu/AscendProjects/classification/src/classify_process.cpp: In member function 'Result ClassifyProcess::Preprocess(const string&)':
+2020-12-25 01:18:03 [ ERROR ] /home/dahu/AscendProjects/classification/src/classify_process.cpp:132:62: error: invalid initialization of reference of type 'cv::OutputArray {aka const cv::_OutputArray&}' from expression of type 'cv::ColorConversionCodes'
+2020-12-25 01:18:03 [ INFO ]      cv::Mat origMat = cv::cvtColor(origMat1,cv::COLOR_BGR2RGB);
+2020-12-25 01:18:03 [ INFO ]                                                               ^
+2020-12-25 01:18:03 [ INFO ] In file included from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/opencv.hpp:74:0,
+2020-12-25 01:18:03 [ INFO ]                  from /home/dahu/AscendProjects/classification/src/../inc/utils.h:24,
+2020-12-25 01:18:03 [ INFO ]                  from /home/dahu/AscendProjects/classification/src/../inc/classify_process.h:20,
+2020-12-25 01:18:03 [ INFO ]                  from /home/dahu/AscendProjects/classification/src/classify_process.cpp:19:
+2020-12-25 01:18:03 [ INFO ] /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/imgproc.hpp:3553:19: note: in passing argument 2 of 'void cv::cvtColor(cv::InputArray, cv::OutputArray, int, int)'
+2020-12-25 01:18:03 [ INFO ]  CV_EXPORTS_W void cvtColor( InputArray src, OutputArray dst, int code, int dstCn = 0 );
+2020-12-25 01:18:03 [ INFO ]                    ^~~~~~~~
+2020-12-25 01:18:04 [ ERROR ] src/CMakeFiles/main.dir/build.make:110: recipe for target 'src/CMakeFiles/main.dir/classify_process.cpp.o' failed
+2020-12-25 01:18:04 [ ERROR ] make[2]: *** [src/CMakeFiles/main.dir/classify_process.cpp.o] Error 1
+2020-12-25 01:18:04 [ ERROR ] CMakeFiles/Makefile2:85: recipe for target 'src/CMakeFiles/main.dir/all' failed
+2020-12-25 01:18:04 [ ERROR ] make[1]: *** [src/CMakeFiles/main.dir/all] Error 2
+2020-12-25 01:18:04 [ ERROR ] Makefile:129: recipe for target 'all' failed
+2020-12-25 01:18:04 [ ERROR ] make: *** [all] Error 2
+2020-12-25 01:20:16 [ INFO ] Build command: 
+2020-12-25 01:20:16 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/classification/build/intermediates && cmake /home/dahu/AscendProjects/classification -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo classification build successfully.
+2020-12-25 01:20:16 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-25 01:20:16 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-25 01:20:16 [ INFO ] -- Configuring done
+2020-12-25 01:20:16 [ INFO ] -- Generating done
+2020-12-25 01:20:16 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/classification/build/intermediates
+2020-12-25 01:20:16 [ INFO ] Scanning dependencies of target main
+2020-12-25 01:20:16 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-25 01:20:19 [ INFO ] [ 40%] Building CXX object src/CMakeFiles/main.dir/main.cpp.o
+2020-12-25 01:20:21 [ INFO ] [ 60%] Linking CXX executable ../../../out/main
+2020-12-25 01:20:22 [ INFO ] [100%] Built target main
+2020-12-25 01:20:22 [ INFO ] classification build successfully.
+2020-12-25 01:23:09 [ INFO ] Build command: 
+2020-12-25 01:23:09 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/classification/build/intermediates && cmake /home/dahu/AscendProjects/classification -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo classification build successfully.
+2020-12-25 01:23:09 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-25 01:23:09 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-25 01:23:09 [ INFO ] -- Configuring done
+2020-12-25 01:23:09 [ INFO ] -- Generating done
+2020-12-25 01:23:09 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/classification/build/intermediates
+2020-12-25 01:23:09 [ INFO ] Scanning dependencies of target main
+2020-12-25 01:23:09 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-25 01:23:12 [ INFO ] [ 40%] Linking CXX executable ../../../out/main
+2020-12-25 01:23:12 [ INFO ] [100%] Built target main
+2020-12-25 01:23:13 [ INFO ] classification build successfully.
+2020-12-25 01:25:29 [ INFO ] Build command: 
+2020-12-25 01:25:29 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/classification/build/intermediates && cmake /home/dahu/AscendProjects/classification -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo classification build successfully.
+2020-12-25 01:25:29 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-25 01:25:29 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-25 01:25:29 [ INFO ] -- Configuring done
+2020-12-25 01:25:29 [ INFO ] -- Generating done
+2020-12-25 01:25:29 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/classification/build/intermediates
+2020-12-25 01:25:29 [ INFO ] Scanning dependencies of target main
+2020-12-25 01:25:29 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-25 01:25:32 [ INFO ] [ 40%] Linking CXX executable ../../../out/main
+2020-12-25 01:25:33 [ INFO ] [100%] Built target main
+2020-12-25 01:25:33 [ INFO ] classification build successfully.
+2020-12-25 03:33:38 [ INFO ] Build command: 
+2020-12-25 03:33:38 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/classification/build/intermediates && cmake /home/dahu/AscendProjects/classification -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo classification build successfully.
+2020-12-25 03:33:38 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-25 03:33:38 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-25 03:33:38 [ INFO ] -- Configuring done
+2020-12-25 03:33:38 [ INFO ] -- Generating done
+2020-12-25 03:33:38 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/classification/build/intermediates
+2020-12-25 03:33:38 [ INFO ] Scanning dependencies of target main
+2020-12-25 03:33:38 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/main.cpp.o
+2020-12-25 03:33:40 [ INFO ] [ 40%] Linking CXX executable ../../../out/main
+2020-12-25 03:33:40 [ INFO ] [100%] Built target main
+2020-12-25 03:33:40 [ INFO ] classification build successfully.
+2020-12-25 03:43:01 [ INFO ] Build command: 
+2020-12-25 03:43:01 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/classification/build/intermediates && cmake /home/dahu/AscendProjects/classification -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo classification build successfully.
+2020-12-25 03:43:02 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-25 03:43:02 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-25 03:43:02 [ INFO ] -- Configuring done
+2020-12-25 03:43:02 [ INFO ] -- Generating done
+2020-12-25 03:43:02 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/classification/build/intermediates
+2020-12-25 03:43:02 [ INFO ] Scanning dependencies of target main
+2020-12-25 03:43:02 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/main.cpp.o
+2020-12-25 03:43:04 [ INFO ] [ 40%] Linking CXX executable ../../../out/main
+2020-12-25 03:43:04 [ INFO ] [100%] Built target main
+2020-12-25 03:43:04 [ INFO ] classification build successfully.
+2020-12-25 04:01:03 [ INFO ] Build command: 
+2020-12-25 04:01:03 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/classification/build/intermediates && cmake /home/dahu/AscendProjects/classification -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo classification build successfully.
+2020-12-25 04:01:03 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-25 04:01:03 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-25 04:01:03 [ INFO ] -- Configuring done
+2020-12-25 04:01:03 [ INFO ] -- Generating done
+2020-12-25 04:01:03 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/classification/build/intermediates
+2020-12-25 04:01:03 [ INFO ] [100%] Built target main
+2020-12-25 04:01:03 [ INFO ] classification build successfully.
+2020-12-25 04:52:29 [ INFO ] Build command: 
+2020-12-25 04:52:29 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/classification/build/intermediates && cmake /home/dahu/AscendProjects/classification -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo classification build successfully.
+2020-12-25 04:52:29 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-25 04:52:29 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-25 04:52:29 [ INFO ] -- Configuring done
+2020-12-25 04:52:29 [ INFO ] -- Generating done
+2020-12-25 04:52:29 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/classification/build/intermediates
+2020-12-25 04:52:29 [ INFO ] Scanning dependencies of target main
+2020-12-25 04:52:29 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-25 04:52:32 [ INFO ] [ 40%] Linking CXX executable ../../../out/main
+2020-12-25 04:52:32 [ INFO ] [100%] Built target main
+2020-12-25 04:52:32 [ INFO ] classification build successfully.
+2020-12-25 05:19:55 [ INFO ] Build command: 
+2020-12-25 05:19:55 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/classification/build/intermediates && cmake /home/dahu/AscendProjects/classification -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo classification build successfully.
+2020-12-25 05:19:55 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-25 05:19:55 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-25 05:19:55 [ INFO ] -- Configuring done
+2020-12-25 05:19:55 [ INFO ] -- Generating done
+2020-12-25 05:19:55 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/classification/build/intermediates
+2020-12-25 05:19:55 [ INFO ] Scanning dependencies of target main
+2020-12-25 05:19:56 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-25 05:19:58 [ INFO ] [ 40%] Linking CXX executable ../../../out/main
+2020-12-25 05:19:59 [ INFO ] [100%] Built target main
+2020-12-25 05:19:59 [ INFO ] classification build successfully.
+2020-12-25 05:25:16 [ INFO ] Build command: 
+2020-12-25 05:25:16 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/classification/build/intermediates && cmake /home/dahu/AscendProjects/classification -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo classification build successfully.
+2020-12-25 05:25:16 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-25 05:25:16 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-25 05:25:16 [ INFO ] -- Configuring done
+2020-12-25 05:25:16 [ INFO ] -- Generating done
+2020-12-25 05:25:16 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/classification/build/intermediates
+2020-12-25 05:25:16 [ INFO ] Scanning dependencies of target main
+2020-12-25 05:25:16 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-25 05:25:18 [ INFO ] /home/dahu/AscendProjects/classification/src/classify_process.cpp: In member function 'Result ClassifyProcess::Postprocess(const string&, aclmdlDataset*)':
+2020-12-25 05:25:18 [ ERROR ] /home/dahu/AscendProjects/classification/src/classify_process.cpp:193:40: error: unable to find string literal operator 'operator""floatData' with 'const char [2]', 'long unsigned int' arguments
+2020-12-25 05:25:18 [ INFO ]          cout<<"ceshi2:"<<floatData[i]<<" "floatData[i + 1]<<" "<<floatData[i + 2]<<" "<<floatData[i + 3]<<" "<<floatData[i + 4]<<" "<<floatData[i + 5]<<" "<<floatData[i + 6]<<endl;
+2020-12-25 05:25:18 [ INFO ]                                         ^~~~~~~~~~~~
+2020-12-25 05:25:18 [ ERROR ] src/CMakeFiles/main.dir/build.make:110: recipe for target 'src/CMakeFiles/main.dir/classify_process.cpp.o' failed
+2020-12-25 05:25:18 [ ERROR ] make[2]: *** [src/CMakeFiles/main.dir/classify_process.cpp.o] Error 1
+2020-12-25 05:25:18 [ ERROR ] CMakeFiles/Makefile2:85: recipe for target 'src/CMakeFiles/main.dir/all' failed
+2020-12-25 05:25:18 [ ERROR ] make[1]: *** [src/CMakeFiles/main.dir/all] Error 2
+2020-12-25 05:25:18 [ ERROR ] Makefile:129: recipe for target 'all' failed
+2020-12-25 05:25:18 [ ERROR ] make: *** [all] Error 2
+2020-12-25 05:25:29 [ INFO ] Build command: 
+2020-12-25 05:25:29 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/classification/build/intermediates && cmake /home/dahu/AscendProjects/classification -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo classification build successfully.
+2020-12-25 05:25:29 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-25 05:25:29 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-25 05:25:29 [ INFO ] -- Configuring done
+2020-12-25 05:25:29 [ INFO ] -- Generating done
+2020-12-25 05:25:29 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/classification/build/intermediates
+2020-12-25 05:25:29 [ INFO ] Scanning dependencies of target main
+2020-12-25 05:25:29 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-25 05:25:32 [ INFO ] [ 40%] Linking CXX executable ../../../out/main
+2020-12-25 05:25:32 [ INFO ] [100%] Built target main
+2020-12-25 05:25:32 [ INFO ] classification build successfully.
+2020-12-25 05:28:23 [ INFO ] Build command: 
+2020-12-25 05:28:23 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/classification/build/intermediates && cmake /home/dahu/AscendProjects/classification -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo classification build successfully.
+2020-12-25 05:28:23 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-25 05:28:23 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-25 05:28:23 [ INFO ] -- Configuring done
+2020-12-25 05:28:23 [ INFO ] -- Generating done
+2020-12-25 05:28:23 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/classification/build/intermediates
+2020-12-25 05:28:23 [ INFO ] Scanning dependencies of target main
+2020-12-25 05:28:23 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-25 05:28:26 [ INFO ] [ 40%] Linking CXX executable ../../../out/main
+2020-12-25 05:28:26 [ INFO ] [100%] Built target main
+2020-12-25 05:28:26 [ INFO ] classification build successfully.
+2020-12-25 05:32:51 [ INFO ] Build command: 
+2020-12-25 05:32:51 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/classification/build/intermediates && cmake /home/dahu/AscendProjects/classification -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo classification build successfully.
+2020-12-25 05:32:52 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-25 05:32:52 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-25 05:32:52 [ INFO ] -- Configuring done
+2020-12-25 05:32:52 [ INFO ] -- Generating done
+2020-12-25 05:32:52 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/classification/build/intermediates
+2020-12-25 05:32:52 [ INFO ] Scanning dependencies of target main
+2020-12-25 05:32:52 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-25 05:32:54 [ INFO ] [ 40%] Linking CXX executable ../../../out/main
+2020-12-25 05:32:54 [ INFO ] [100%] Built target main
+2020-12-25 05:32:55 [ INFO ] classification build successfully.
+2020-12-25 05:34:33 [ INFO ] Build command: 
+2020-12-25 05:34:33 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/classification/build/intermediates && cmake /home/dahu/AscendProjects/classification -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo classification build successfully.
+2020-12-25 05:34:33 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-25 05:34:33 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-25 05:34:33 [ INFO ] -- Configuring done
+2020-12-25 05:34:33 [ INFO ] -- Generating done
+2020-12-25 05:34:33 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/classification/build/intermediates
+2020-12-25 05:34:33 [ INFO ] Scanning dependencies of target main
+2020-12-25 05:34:33 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-25 05:34:35 [ INFO ] /home/dahu/AscendProjects/classification/src/classify_process.cpp: In member function 'Result ClassifyProcess::Postprocess(const string&, aclmdlDataset*)':
+2020-12-25 05:34:35 [ ERROR ] /home/dahu/AscendProjects/classification/src/classify_process.cpp:189:11: error: 'intData' was not declared in this scope
+2020-12-25 05:34:35 [ INFO ]      cout<<intData[0]<<intData[1]<<intData[2]<<endl;
+2020-12-25 05:34:35 [ INFO ]            ^~~~~~~
+2020-12-25 05:34:35 [ INFO ] /home/dahu/AscendProjects/classification/src/classify_process.cpp:189:11: note: suggested alternative: 'int8_t'
+2020-12-25 05:34:35 [ INFO ]      cout<<intData[0]<<intData[1]<<intData[2]<<endl;
+2020-12-25 05:34:35 [ INFO ]            ^~~~~~~
+2020-12-25 05:34:35 [ INFO ]            int8_t
+2020-12-25 05:34:36 [ ERROR ] src/CMakeFiles/main.dir/build.make:110: recipe for target 'src/CMakeFiles/main.dir/classify_process.cpp.o' failed
+2020-12-25 05:34:36 [ ERROR ] make[2]: *** [src/CMakeFiles/main.dir/classify_process.cpp.o] Error 1
+2020-12-25 05:34:36 [ ERROR ] CMakeFiles/Makefile2:85: recipe for target 'src/CMakeFiles/main.dir/all' failed
+2020-12-25 05:34:36 [ ERROR ] make[1]: *** [src/CMakeFiles/main.dir/all] Error 2
+2020-12-25 05:34:36 [ ERROR ] Makefile:129: recipe for target 'all' failed
+2020-12-25 05:34:36 [ ERROR ] make: *** [all] Error 2
+2020-12-25 05:35:33 [ INFO ] Build command: 
+2020-12-25 05:35:33 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/classification/build/intermediates && cmake /home/dahu/AscendProjects/classification -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo classification build successfully.
+2020-12-25 05:35:33 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-25 05:35:33 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-25 05:35:33 [ INFO ] -- Configuring done
+2020-12-25 05:35:33 [ INFO ] -- Generating done
+2020-12-25 05:35:33 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/classification/build/intermediates
+2020-12-25 05:35:33 [ INFO ] Scanning dependencies of target main
+2020-12-25 05:35:34 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-25 05:35:35 [ INFO ] /home/dahu/AscendProjects/classification/src/classify_process.cpp: In member function 'Result ClassifyProcess::Postprocess(const string&, aclmdlDataset*)':
+2020-12-25 05:35:35 [ ERROR ] /home/dahu/AscendProjects/classification/src/classify_process.cpp:188:49: error: cannot convert 'int*' to 'float*' in initialization
+2020-12-25 05:35:35 [ INFO ]      float *intData = reinterpret_cast<int*>(data);
+2020-12-25 05:35:35 [ INFO ]                                                  ^
+2020-12-25 05:35:36 [ ERROR ] src/CMakeFiles/main.dir/build.make:110: recipe for target 'src/CMakeFiles/main.dir/classify_process.cpp.o' failed
+2020-12-25 05:35:36 [ ERROR ] make[2]: *** [src/CMakeFiles/main.dir/classify_process.cpp.o] Error 1
+2020-12-25 05:35:36 [ ERROR ] CMakeFiles/Makefile2:85: recipe for target 'src/CMakeFiles/main.dir/all' failed
+2020-12-25 05:35:36 [ ERROR ] make[1]: *** [src/CMakeFiles/main.dir/all] Error 2
+2020-12-25 05:35:36 [ ERROR ] Makefile:129: recipe for target 'all' failed
+2020-12-25 05:35:36 [ ERROR ] make: *** [all] Error 2
+2020-12-25 05:36:02 [ INFO ] Build command: 
+2020-12-25 05:36:02 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/classification/build/intermediates && cmake /home/dahu/AscendProjects/classification -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo classification build successfully.
+2020-12-25 05:36:02 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-25 05:36:02 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-25 05:36:02 [ INFO ] -- Configuring done
+2020-12-25 05:36:02 [ INFO ] -- Generating done
+2020-12-25 05:36:02 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/classification/build/intermediates
+2020-12-25 05:36:02 [ INFO ] Scanning dependencies of target main
+2020-12-25 05:36:02 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-25 05:36:05 [ INFO ] [ 40%] Linking CXX executable ../../../out/main
+2020-12-25 05:36:05 [ INFO ] [100%] Built target main
+2020-12-25 05:36:05 [ INFO ] classification build successfully.
+2020-12-25 22:06:08 [ INFO ] Build command: 
+2020-12-25 22:06:08 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/classification/build/intermediates && rm -rf * && cmake /home/dahu/AscendProjects/classification -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo classification build successfully.
+2020-12-25 22:06:09 [ INFO ] -- The C compiler identification is GNU 7.5.0
+2020-12-25 22:06:09 [ INFO ] -- The CXX compiler identification is GNU 7.5.0
+2020-12-25 22:06:09 [ INFO ] -- Check for working C compiler: /usr/bin/cc
+2020-12-25 22:06:10 [ INFO ] -- Check for working C compiler: /usr/bin/cc -- works
+2020-12-25 22:06:10 [ INFO ] -- Detecting C compiler ABI info
+2020-12-25 22:06:10 [ INFO ] -- Detecting C compiler ABI info - done
+2020-12-25 22:06:10 [ INFO ] -- Detecting C compile features
+2020-12-25 22:06:10 [ INFO ] -- Detecting C compile features - done
+2020-12-25 22:06:10 [ INFO ] -- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++
+2020-12-25 22:06:10 [ INFO ] -- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++ -- works
+2020-12-25 22:06:10 [ INFO ] -- Detecting CXX compiler ABI info
+2020-12-25 22:06:10 [ INFO ] -- Detecting CXX compiler ABI info - done
+2020-12-25 22:06:10 [ INFO ] -- Detecting CXX compile features
+2020-12-25 22:06:11 [ INFO ] -- Detecting CXX compile features - done
+2020-12-25 22:06:11 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-25 22:06:11 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-25 22:06:11 [ INFO ] -- Configuring done
+2020-12-25 22:06:11 [ INFO ] -- Generating done
+2020-12-25 22:06:11 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/classification/build/intermediates
+2020-12-25 22:06:11 [ INFO ] Scanning dependencies of target main
+2020-12-25 22:06:11 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/utils.cpp.o
+2020-12-25 22:06:16 [ INFO ] [ 40%] Building CXX object src/CMakeFiles/main.dir/model_process.cpp.o
+2020-12-25 22:06:18 [ INFO ] [ 60%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-25 22:06:20 [ INFO ] /home/dahu/AscendProjects/classification/src/classify_process.cpp: In member function 'Result ClassifyProcess::Postprocess(const string&, aclmdlDataset*)':
+2020-12-25 22:06:20 [ ERROR ] /home/dahu/AscendProjects/classification/src/classify_process.cpp:222:75: error: no matching function for call to 'rectangle(cv::Mat&, float&, float&, int, int)'
+2020-12-25 22:06:20 [ INFO ]      cv::rectangle(resultImage, (left,top) , (right,bottom) , (0,255,0) , 1);
+2020-12-25 22:06:20 [ INFO ]                                                                            ^
+2020-12-25 22:06:20 [ INFO ] In file included from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/opencv.hpp:74:0,
+2020-12-25 22:06:20 [ INFO ]                  from /home/dahu/AscendProjects/classification/src/../inc/utils.h:24,
+2020-12-25 22:06:20 [ INFO ]                  from /home/dahu/AscendProjects/classification/src/../inc/classify_process.h:20,
+2020-12-25 22:06:20 [ INFO ]                  from /home/dahu/AscendProjects/classification/src/classify_process.cpp:19:
+2020-12-25 22:06:20 [ INFO ] /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/imgproc.hpp:4330:19: note: candidate: void cv::rectangle(cv::InputOutputArray, cv::Point, cv::Point, const Scalar&, int, int, int)
+2020-12-25 22:06:20 [ INFO ]  CV_EXPORTS_W void rectangle(InputOutputArray img, Point pt1, Point pt2,
+2020-12-25 22:06:20 [ INFO ]                    ^~~~~~~~~
+2020-12-25 22:06:20 [ INFO ] /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/imgproc.hpp:4330:19: note:   no known conversion for argument 2 from 'float' to 'cv::Point {aka cv::Point_<int>}'
+2020-12-25 22:06:20 [ INFO ] /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/imgproc.hpp:4339:19: note: candidate: void cv::rectangle(cv::InputOutputArray, cv::Rect, const Scalar&, int, int, int)
+2020-12-25 22:06:20 [ INFO ]  CV_EXPORTS_W void rectangle(InputOutputArray img, Rect rec,
+2020-12-25 22:06:20 [ INFO ]                    ^~~~~~~~~
+2020-12-25 22:06:20 [ INFO ] /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/imgproc.hpp:4339:19: note:   no known conversion for argument 2 from 'float' to 'cv::Rect {aka cv::Rect_<int>}'
+2020-12-25 22:06:21 [ ERROR ] src/CMakeFiles/main.dir/build.make:110: recipe for target 'src/CMakeFiles/main.dir/classify_process.cpp.o' failed
+2020-12-25 22:06:21 [ ERROR ] make[2]: *** [src/CMakeFiles/main.dir/classify_process.cpp.o] Error 1
+2020-12-25 22:06:21 [ ERROR ] CMakeFiles/Makefile2:85: recipe for target 'src/CMakeFiles/main.dir/all' failed
+2020-12-25 22:06:21 [ ERROR ] make[1]: *** [src/CMakeFiles/main.dir/all] Error 2
+2020-12-25 22:06:21 [ ERROR ] Makefile:129: recipe for target 'all' failed
+2020-12-25 22:06:21 [ ERROR ] make: *** [all] Error 2
+2020-12-25 22:07:40 [ INFO ] Build command: 
+2020-12-25 22:07:40 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/classification/build/intermediates && cmake /home/dahu/AscendProjects/classification -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo classification build successfully.
+2020-12-25 22:07:40 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-25 22:07:40 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-25 22:07:40 [ INFO ] -- Configuring done
+2020-12-25 22:07:40 [ INFO ] -- Generating done
+2020-12-25 22:07:40 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/classification/build/intermediates
+2020-12-25 22:07:40 [ INFO ] Scanning dependencies of target main
+2020-12-25 22:07:40 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-25 22:07:43 [ INFO ] [ 40%] Building CXX object src/CMakeFiles/main.dir/main.cpp.o
+2020-12-25 22:07:45 [ INFO ] [ 60%] Linking CXX executable ../../../out/main
+2020-12-25 22:07:46 [ INFO ] [100%] Built target main
+2020-12-25 22:07:46 [ INFO ] classification build successfully.
+2020-12-25 22:09:10 [ INFO ] Build command: 
+2020-12-25 22:09:10 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/classification/build/intermediates && cmake /home/dahu/AscendProjects/classification -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo classification build successfully.
+2020-12-25 22:09:10 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-25 22:09:10 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-25 22:09:10 [ INFO ] -- Configuring done
+2020-12-25 22:09:10 [ INFO ] -- Generating done
+2020-12-25 22:09:10 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/classification/build/intermediates
+2020-12-25 22:09:10 [ INFO ] Scanning dependencies of target main
+2020-12-25 22:09:10 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-25 22:09:13 [ INFO ] [ 40%] Linking CXX executable ../../../out/main
+2020-12-25 22:09:14 [ INFO ] [100%] Built target main
+2020-12-25 22:09:14 [ INFO ] classification build successfully.
+2020-12-25 22:10:25 [ INFO ] Build command: 
+2020-12-25 22:10:25 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/classification/build/intermediates && cmake /home/dahu/AscendProjects/classification -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo classification build successfully.
+2020-12-25 22:10:25 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-25 22:10:25 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-25 22:10:25 [ INFO ] -- Configuring done
+2020-12-25 22:10:25 [ INFO ] -- Generating done
+2020-12-25 22:10:25 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/classification/build/intermediates
+2020-12-25 22:10:25 [ INFO ] Scanning dependencies of target main
+2020-12-25 22:10:25 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-25 22:10:29 [ INFO ] [ 40%] Linking CXX executable ../../../out/main
+2020-12-25 22:10:29 [ INFO ] [100%] Built target main
+2020-12-25 22:10:29 [ INFO ] classification build successfully.
+2020-12-25 22:12:14 [ INFO ] Build command: 
+2020-12-25 22:12:14 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/classification/build/intermediates && cmake /home/dahu/AscendProjects/classification -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo classification build successfully.
+2020-12-25 22:12:14 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-25 22:12:14 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-25 22:12:14 [ INFO ] -- Configuring done
+2020-12-25 22:12:14 [ INFO ] -- Generating done
+2020-12-25 22:12:14 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/classification/build/intermediates
+2020-12-25 22:12:14 [ INFO ] Scanning dependencies of target main
+2020-12-25 22:12:14 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-25 22:12:18 [ INFO ] [ 40%] Linking CXX executable ../../../out/main
+2020-12-25 22:12:18 [ INFO ] [100%] Built target main
+2020-12-25 22:12:18 [ INFO ] classification build successfully.
+2020-12-25 22:13:16 [ INFO ] Build command: 
+2020-12-25 22:13:16 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/classification/build/intermediates && cmake /home/dahu/AscendProjects/classification -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo classification build successfully.
+2020-12-25 22:13:16 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-25 22:13:16 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-25 22:13:16 [ INFO ] -- Configuring done
+2020-12-25 22:13:16 [ INFO ] -- Generating done
+2020-12-25 22:13:16 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/classification/build/intermediates
+2020-12-25 22:13:16 [ INFO ] Scanning dependencies of target main
+2020-12-25 22:13:16 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-25 22:13:19 [ INFO ] [ 40%] Linking CXX executable ../../../out/main
+2020-12-25 22:13:19 [ INFO ] [100%] Built target main
+2020-12-25 22:13:19 [ INFO ] classification build successfully.
+2020-12-25 22:14:03 [ INFO ] Build command: 
+2020-12-25 22:14:03 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/classification/build/intermediates && cmake /home/dahu/AscendProjects/classification -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo classification build successfully.
+2020-12-25 22:14:03 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-25 22:14:03 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-25 22:14:03 [ INFO ] -- Configuring done
+2020-12-25 22:14:03 [ INFO ] -- Generating done
+2020-12-25 22:14:03 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/classification/build/intermediates
+2020-12-25 22:14:03 [ INFO ] Scanning dependencies of target main
+2020-12-25 22:14:03 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-25 22:14:06 [ INFO ] [ 40%] Linking CXX executable ../../../out/main
+2020-12-25 22:14:07 [ INFO ] [100%] Built target main
+2020-12-25 22:14:07 [ INFO ] classification build successfully.
+2020-12-27 18:00:02 [ INFO ] Build command: 
+2020-12-27 18:00:02 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/Atlas200DK/build/intermediates && rm -rf * && cmake /home/dahu/AscendProjects/Atlas200DK -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo Atlas200DK build successfully.
+2020-12-27 18:00:02 [ INFO ] -- The C compiler identification is GNU 7.5.0
+2020-12-27 18:00:03 [ INFO ] -- The CXX compiler identification is GNU 7.5.0
+2020-12-27 18:00:03 [ INFO ] -- Check for working C compiler: /usr/bin/cc
+2020-12-27 18:00:03 [ INFO ] -- Check for working C compiler: /usr/bin/cc -- works
+2020-12-27 18:00:03 [ INFO ] -- Detecting C compiler ABI info
+2020-12-27 18:00:03 [ INFO ] -- Detecting C compiler ABI info - done
+2020-12-27 18:00:03 [ INFO ] -- Detecting C compile features
+2020-12-27 18:00:04 [ INFO ] -- Detecting C compile features - done
+2020-12-27 18:00:04 [ INFO ] -- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++
+2020-12-27 18:00:04 [ INFO ] -- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++ -- works
+2020-12-27 18:00:04 [ INFO ] -- Detecting CXX compiler ABI info
+2020-12-27 18:00:04 [ INFO ] -- Detecting CXX compiler ABI info - done
+2020-12-27 18:00:04 [ INFO ] -- Detecting CXX compile features
+2020-12-27 18:00:04 [ INFO ] -- Detecting CXX compile features - done
+2020-12-27 18:00:04 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-27 18:00:04 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-27 18:00:04 [ INFO ] -- Configuring done
+2020-12-27 18:00:05 [ INFO ] -- Generating done
+2020-12-27 18:00:05 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/Atlas200DK/build/intermediates
+2020-12-27 18:00:05 [ INFO ] Scanning dependencies of target main
+2020-12-27 18:00:05 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/utils.cpp.o
+2020-12-27 18:00:10 [ INFO ] [ 40%] Building CXX object src/CMakeFiles/main.dir/model_process.cpp.o
+2020-12-27 18:00:13 [ INFO ] [ 60%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-27 18:00:16 [ INFO ] [ 80%] Building CXX object src/CMakeFiles/main.dir/main.cpp.o
+2020-12-27 18:00:18 [ INFO ] [100%] Linking CXX executable ../../../out/main
+2020-12-27 18:00:19 [ INFO ] [100%] Built target main
+2020-12-27 18:00:19 [ INFO ] Atlas200DK build successfully.
