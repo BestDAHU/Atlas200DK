@@ -35,7 +35,8 @@ ClassifyProcess::ClassifyProcess(const char* modelPath,
 :deviceId_(0), context_(nullptr), stream_(nullptr), inputBuf_(nullptr), 
 modelWidth_(modelWidth), modelHeight_(modelHeight), isInited_(false){
     modelPath_ = modelPath;
-    inputDataSize_ = RGBU8_IMAGE_SIZE(modelWidth_, modelHeight_);
+    inputDataSize_ = RGBU8_IMAGE_SIZE(modelWidth_, modelHeight_) * sizeof(float);
+    cout<<"dahu:"<<inputDataSize_<<endl;
 }
 
 ClassifyProcess::~ClassifyProcess() {
@@ -141,6 +142,50 @@ Result ClassifyProcess::Preprocess(const string& imageFile) {
     //resize
     cv::Mat reiszeMat;
     cv::resize(origMat, reiszeMat, cv::Size(modelWidth_, modelHeight_));
+    float *input_ptr = (float*)malloc(inputDataSize_);
+
+    if (input_ptr == nullptr) {
+        ERROR_LOG("dahu malloc image buffer failed.");
+        return FAILED;
+    }
+
+    uint8_t *matPoint = reiszeMat.ptr<uint8_t>();
+
+    float pixel_means[] = {0.406, 0.456, 0.485};
+    float pixel_stds[] = { 0.225, 0.224, 0.229 };
+    float pixel_scale = 255.0;
+    int modelC_ = reiszeMat.channels();   // 3
+    unsigned int nums = 0;
+    for (int i = 0; i < reiszeMat.channels();i++)    // c
+        for (int j = 0; j < reiszeMat.rows;j++)    // h
+            for (int k = 0; k < reiszeMat.cols; k++) {  // w
+                // hwc(cv::mat) -> chw
+                input_ptr[i*modelWidth_*modelHeight_ +  j*modelWidth_ + k] = ((float)(matPoint[j*modelWidth_*modelC_ + k*modelC_ + i])
+                            /pixel_scale - pixel_means[i])/pixel_stds[i];
+        }
+/*
+    cout<<"dahu:";
+    for(int i =0;i<30;i++)
+        cout<<input_ptr[i]<<" ";
+    cout<<endl;
+
+    cout<<"dahu:";
+    for(int i =0;i<30;i++)
+        cout<<input_ptr[modelWidth_*modelHeight_ - i - 1]<<" ";
+    cout<<endl;
+
+    cout<<"dahu:";
+    for(int i =0;i<30;i++)
+        cout<<input_ptr[modelWidth_*modelHeight_ + i]<<" ";
+    cout<<endl;
+*/
+    //    cout<<"dahu:"<<sizeof(input_ptr);
+
+    if (inputBuf_ == nullptr) {
+        ERROR_LOG("Acl malloc image buffer failed.");
+        return FAILED;
+    }
+
     if (reiszeMat.empty()) {
         ERROR_LOG("Resize image failed");
         return FAILED;
@@ -158,8 +203,11 @@ Result ClassifyProcess::Preprocess(const string& imageFile) {
     } else {
         //Atals200DK上运行时,数据拷贝到本地即可.
         //reiszeMat是局部变量,数据无法传出函数,需要拷贝一份
-        memcpy(inputBuf_, reiszeMat.ptr<void>(), inputDataSize_);
+//        memcpy(inputBuf_, reiszeMat.ptr<void>(), inputDataSize_);
+        memcpy(inputBuf_, (void *)input_ptr, inputDataSize_);
     }
+
+    free(input_ptr);
 
     return SUCCESS;
 }
@@ -190,7 +238,7 @@ Result ClassifyProcess::Postprocess(const string& origImageFile,
     float *floatData = reinterpret_cast<float*>(data1);
     for(int i =0;i<intData[0];i++){
         int step = i*8;
-        cout<<"ceshi2:"<<floatData[step]<<" "<<floatData[step + 1]<<" "<<floatData[step + 2]<<" "<<floatData[step + 3]<<" "<<floatData[step + 4]<<" "<<floatData[step + 5]<<" "<<floatData[step + 6]<<" "<<floatData[step + 7]<<endl;
+        cout<<"ceshi2:"<<floatData[step]<<" "<<floatData[step + 1]<<" "<<floatData[step + 2]<<" "<<floatData[step + 3]<<" "<<floatData[step + 4]<<" "<<floatData[step + 5]<<" "<<floatData[step + 6]<<endl;
     }
 
     cv::Mat resultImage = cv::imread(origImageFile, CV_LOAD_IMAGE_COLOR);

@@ -502,3 +502,892 @@
 2020-12-27 18:00:18 [ INFO ] [100%] Linking CXX executable ../../../out/main
 2020-12-27 18:00:19 [ INFO ] [100%] Built target main
 2020-12-27 18:00:19 [ INFO ] Atlas200DK build successfully.
+2020-12-27 19:10:01 [ INFO ] Build command: 
+2020-12-27 19:10:01 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/Atlas200DK/build/intermediates && rm -rf * && cmake /home/dahu/AscendProjects/Atlas200DK -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo Atlas200DK build successfully.
+2020-12-27 19:10:01 [ INFO ] -- The C compiler identification is GNU 7.5.0
+2020-12-27 19:10:01 [ INFO ] -- The CXX compiler identification is GNU 7.5.0
+2020-12-27 19:10:01 [ INFO ] -- Check for working C compiler: /usr/bin/cc
+2020-12-27 19:10:02 [ INFO ] -- Check for working C compiler: /usr/bin/cc -- works
+2020-12-27 19:10:02 [ INFO ] -- Detecting C compiler ABI info
+2020-12-27 19:10:02 [ INFO ] -- Detecting C compiler ABI info - done
+2020-12-27 19:10:02 [ INFO ] -- Detecting C compile features
+2020-12-27 19:10:03 [ INFO ] -- Detecting C compile features - done
+2020-12-27 19:10:03 [ INFO ] -- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++
+2020-12-27 19:10:03 [ INFO ] -- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++ -- works
+2020-12-27 19:10:03 [ INFO ] -- Detecting CXX compiler ABI info
+2020-12-27 19:10:03 [ INFO ] -- Detecting CXX compiler ABI info - done
+2020-12-27 19:10:03 [ INFO ] -- Detecting CXX compile features
+2020-12-27 19:10:04 [ INFO ] -- Detecting CXX compile features - done
+2020-12-27 19:10:04 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-27 19:10:04 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-27 19:10:04 [ INFO ] -- Configuring done
+2020-12-27 19:10:04 [ INFO ] -- Generating done
+2020-12-27 19:10:04 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/Atlas200DK/build/intermediates
+2020-12-27 19:10:04 [ INFO ] Scanning dependencies of target main
+2020-12-27 19:10:04 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/utils.cpp.o
+2020-12-27 19:10:08 [ INFO ] [ 40%] Building CXX object src/CMakeFiles/main.dir/model_process.cpp.o
+2020-12-27 19:10:10 [ INFO ] [ 60%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-27 19:10:13 [ INFO ] [ 80%] Building CXX object src/CMakeFiles/main.dir/main.cpp.o
+2020-12-27 19:10:15 [ INFO ] [100%] Linking CXX executable ../../../out/main
+2020-12-27 19:10:16 [ INFO ] [100%] Built target main
+2020-12-27 19:10:16 [ INFO ] Atlas200DK build successfully.
+2020-12-27 19:25:30 [ INFO ] Build command: 
+2020-12-27 19:25:30 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/Atlas200DK/build/intermediates && cmake /home/dahu/AscendProjects/Atlas200DK -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo Atlas200DK build successfully.
+2020-12-27 19:25:30 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-27 19:25:30 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-27 19:25:30 [ INFO ] -- Configuring done
+2020-12-27 19:25:30 [ INFO ] -- Generating done
+2020-12-27 19:25:30 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/Atlas200DK/build/intermediates
+2020-12-27 19:25:30 [ INFO ] [100%] Built target main
+2020-12-27 19:25:30 [ INFO ] Atlas200DK build successfully.
+2020-12-27 23:16:00 [ INFO ] Build command: 
+2020-12-27 23:16:00 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/Atlas200DK/build/intermediates && cmake /home/dahu/AscendProjects/Atlas200DK -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo Atlas200DK build successfully.
+2020-12-27 23:16:00 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-27 23:16:00 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-27 23:16:00 [ INFO ] -- Configuring done
+2020-12-27 23:16:00 [ INFO ] -- Generating done
+2020-12-27 23:16:00 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/Atlas200DK/build/intermediates
+2020-12-27 23:16:00 [ INFO ] Scanning dependencies of target main
+2020-12-27 23:16:00 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-27 23:16:02 [ INFO ] /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp: In member function 'Result ClassifyProcess::Preprocess(const string&)':
+2020-12-27 23:16:02 [ ERROR ] /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:145:36: error: no match for 'operator<' (operand types are 'std::ostream {aka std::basic_ostream<char>}' and '<unresolved overloaded function type>')
+2020-12-27 23:16:02 [ INFO ]      cout<<"dahu:"<<reiszeMat.size()<endl;
+2020-12-27 23:16:02 [ INFO ]      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+2020-12-27 23:16:02 [ INFO ] In file included from /usr/aarch64-linux-gnu/include/c++/7/bits/stl_algobase.h:64:0,
+2020-12-27 23:16:02 [ INFO ]                  from /usr/aarch64-linux-gnu/include/c++/7/bits/char_traits.h:39,
+2020-12-27 23:16:02 [ INFO ]                  from /usr/aarch64-linux-gnu/include/c++/7/ios:40,
+2020-12-27 23:16:02 [ INFO ]                  from /usr/aarch64-linux-gnu/include/c++/7/ostream:38,
+2020-12-27 23:16:02 [ INFO ]                  from /usr/aarch64-linux-gnu/include/c++/7/iostream:39,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/utils.h:20,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/classify_process.h:20,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:19:
+2020-12-27 23:16:02 [ INFO ] /usr/aarch64-linux-gnu/include/c++/7/bits/stl_pair.h:454:5: note: candidate: template<class _T1, class _T2> constexpr bool std::operator<(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+2020-12-27 23:16:02 [ INFO ]      operator<(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
+2020-12-27 23:16:02 [ INFO ]      ^~~~~~~~
+2020-12-27 23:16:02 [ ERROR ] /usr/aarch64-linux-gnu/include/c++/7/bits/stl_pair.h:454:5: note:   template argument deduction/substitution failed:
+2020-12-27 23:16:02 [ INFO ] /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:145:37: note:   'std::ostream {aka std::basic_ostream<char>}' is not derived from 'const std::pair<_T1, _T2>'
+2020-12-27 23:16:02 [ INFO ]      cout<<"dahu:"<<reiszeMat.size()<endl;
+2020-12-27 23:16:02 [ INFO ]                                      ^~~~
+2020-12-27 23:16:02 [ INFO ] In file included from /usr/aarch64-linux-gnu/include/c++/7/bits/stl_algobase.h:67:0,
+2020-12-27 23:16:02 [ INFO ]                  from /usr/aarch64-linux-gnu/include/c++/7/bits/char_traits.h:39,
+2020-12-27 23:16:02 [ INFO ]                  from /usr/aarch64-linux-gnu/include/c++/7/ios:40,
+2020-12-27 23:16:02 [ INFO ]                  from /usr/aarch64-linux-gnu/include/c++/7/ostream:38,
+2020-12-27 23:16:02 [ INFO ]                  from /usr/aarch64-linux-gnu/include/c++/7/iostream:39,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/utils.h:20,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/classify_process.h:20,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:19:
+2020-12-27 23:16:02 [ INFO ] /usr/aarch64-linux-gnu/include/c++/7/bits/stl_iterator.h:308:5: note: candidate: template<class _Iterator> bool std::operator<(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+2020-12-27 23:16:02 [ INFO ]      operator<(const reverse_iterator<_Iterator>& __x,
+2020-12-27 23:16:02 [ INFO ]      ^~~~~~~~
+2020-12-27 23:16:02 [ ERROR ] /usr/aarch64-linux-gnu/include/c++/7/bits/stl_iterator.h:308:5: note:   template argument deduction/substitution failed:
+2020-12-27 23:16:02 [ INFO ] /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:145:37: note:   'std::ostream {aka std::basic_ostream<char>}' is not derived from 'const std::reverse_iterator<_Iterator>'
+2020-12-27 23:16:02 [ INFO ]      cout<<"dahu:"<<reiszeMat.size()<endl;
+2020-12-27 23:16:02 [ INFO ]                                      ^~~~
+2020-12-27 23:16:02 [ INFO ] In file included from /usr/aarch64-linux-gnu/include/c++/7/bits/stl_algobase.h:67:0,
+2020-12-27 23:16:02 [ INFO ]                  from /usr/aarch64-linux-gnu/include/c++/7/bits/char_traits.h:39,
+2020-12-27 23:16:02 [ INFO ]                  from /usr/aarch64-linux-gnu/include/c++/7/ios:40,
+2020-12-27 23:16:02 [ INFO ]                  from /usr/aarch64-linux-gnu/include/c++/7/ostream:38,
+2020-12-27 23:16:02 [ INFO ]                  from /usr/aarch64-linux-gnu/include/c++/7/iostream:39,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/utils.h:20,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/classify_process.h:20,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:19:
+2020-12-27 23:16:02 [ INFO ] /usr/aarch64-linux-gnu/include/c++/7/bits/stl_iterator.h:346:5: note: candidate: template<class _IteratorL, class _IteratorR> bool std::operator<(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)
+2020-12-27 23:16:02 [ INFO ]      operator<(const reverse_iterator<_IteratorL>& __x,
+2020-12-27 23:16:02 [ INFO ]      ^~~~~~~~
+2020-12-27 23:16:02 [ ERROR ] /usr/aarch64-linux-gnu/include/c++/7/bits/stl_iterator.h:346:5: note:   template argument deduction/substitution failed:
+2020-12-27 23:16:02 [ INFO ] /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:145:37: note:   'std::ostream {aka std::basic_ostream<char>}' is not derived from 'const std::reverse_iterator<_Iterator>'
+2020-12-27 23:16:02 [ INFO ]      cout<<"dahu:"<<reiszeMat.size()<endl;
+2020-12-27 23:16:02 [ INFO ]                                      ^~~~
+2020-12-27 23:16:02 [ INFO ] In file included from /usr/aarch64-linux-gnu/include/c++/7/bits/stl_algobase.h:67:0,
+2020-12-27 23:16:02 [ INFO ]                  from /usr/aarch64-linux-gnu/include/c++/7/bits/char_traits.h:39,
+2020-12-27 23:16:02 [ INFO ]                  from /usr/aarch64-linux-gnu/include/c++/7/ios:40,
+2020-12-27 23:16:02 [ INFO ]                  from /usr/aarch64-linux-gnu/include/c++/7/ostream:38,
+2020-12-27 23:16:02 [ INFO ]                  from /usr/aarch64-linux-gnu/include/c++/7/iostream:39,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/utils.h:20,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/classify_process.h:20,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:19:
+2020-12-27 23:16:02 [ INFO ] /usr/aarch64-linux-gnu/include/c++/7/bits/stl_iterator.h:1145:5: note: candidate: template<class _IteratorL, class _IteratorR> bool std::operator<(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)
+2020-12-27 23:16:02 [ INFO ]      operator<(const move_iterator<_IteratorL>& __x,
+2020-12-27 23:16:02 [ INFO ]      ^~~~~~~~
+2020-12-27 23:16:02 [ ERROR ] /usr/aarch64-linux-gnu/include/c++/7/bits/stl_iterator.h:1145:5: note:   template argument deduction/substitution failed:
+2020-12-27 23:16:02 [ INFO ] /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:145:37: note:   'std::ostream {aka std::basic_ostream<char>}' is not derived from 'const std::move_iterator<_IteratorL>'
+2020-12-27 23:16:02 [ INFO ]      cout<<"dahu:"<<reiszeMat.size()<endl;
+2020-12-27 23:16:02 [ INFO ]                                      ^~~~
+2020-12-27 23:16:02 [ INFO ] In file included from /usr/aarch64-linux-gnu/include/c++/7/bits/stl_algobase.h:67:0,
+2020-12-27 23:16:02 [ INFO ]                  from /usr/aarch64-linux-gnu/include/c++/7/bits/char_traits.h:39,
+2020-12-27 23:16:02 [ INFO ]                  from /usr/aarch64-linux-gnu/include/c++/7/ios:40,
+2020-12-27 23:16:02 [ INFO ]                  from /usr/aarch64-linux-gnu/include/c++/7/ostream:38,
+2020-12-27 23:16:02 [ INFO ]                  from /usr/aarch64-linux-gnu/include/c++/7/iostream:39,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/utils.h:20,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/classify_process.h:20,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:19:
+2020-12-27 23:16:02 [ INFO ] /usr/aarch64-linux-gnu/include/c++/7/bits/stl_iterator.h:1151:5: note: candidate: template<class _Iterator> bool std::operator<(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorL>&)
+2020-12-27 23:16:02 [ INFO ]      operator<(const move_iterator<_Iterator>& __x,
+2020-12-27 23:16:02 [ INFO ]      ^~~~~~~~
+2020-12-27 23:16:02 [ ERROR ] /usr/aarch64-linux-gnu/include/c++/7/bits/stl_iterator.h:1151:5: note:   template argument deduction/substitution failed:
+2020-12-27 23:16:02 [ INFO ] /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:145:37: note:   'std::ostream {aka std::basic_ostream<char>}' is not derived from 'const std::move_iterator<_IteratorL>'
+2020-12-27 23:16:02 [ INFO ]      cout<<"dahu:"<<reiszeMat.size()<endl;
+2020-12-27 23:16:02 [ INFO ]                                      ^~~~
+2020-12-27 23:16:02 [ INFO ] In file included from /usr/aarch64-linux-gnu/include/c++/7/string:52:0,
+2020-12-27 23:16:02 [ INFO ]                  from /usr/aarch64-linux-gnu/include/c++/7/bits/locale_classes.h:40,
+2020-12-27 23:16:02 [ INFO ]                  from /usr/aarch64-linux-gnu/include/c++/7/bits/ios_base.h:41,
+2020-12-27 23:16:02 [ INFO ]                  from /usr/aarch64-linux-gnu/include/c++/7/ios:42,
+2020-12-27 23:16:02 [ INFO ]                  from /usr/aarch64-linux-gnu/include/c++/7/ostream:38,
+2020-12-27 23:16:02 [ INFO ]                  from /usr/aarch64-linux-gnu/include/c++/7/iostream:39,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/utils.h:20,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/classify_process.h:20,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:19:
+2020-12-27 23:16:02 [ INFO ] /usr/aarch64-linux-gnu/include/c++/7/bits/basic_string.h:6094:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator<(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+2020-12-27 23:16:02 [ INFO ]      operator<(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+2020-12-27 23:16:02 [ INFO ]      ^~~~~~~~
+2020-12-27 23:16:02 [ ERROR ] /usr/aarch64-linux-gnu/include/c++/7/bits/basic_string.h:6094:5: note:   template argument deduction/substitution failed:
+2020-12-27 23:16:02 [ INFO ] /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:145:37: note:   'std::ostream {aka std::basic_ostream<char>}' is not derived from 'const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>'
+2020-12-27 23:16:02 [ INFO ]      cout<<"dahu:"<<reiszeMat.size()<endl;
+2020-12-27 23:16:02 [ INFO ]                                      ^~~~
+2020-12-27 23:16:02 [ INFO ] In file included from /usr/aarch64-linux-gnu/include/c++/7/string:52:0,
+2020-12-27 23:16:02 [ INFO ]                  from /usr/aarch64-linux-gnu/include/c++/7/bits/locale_classes.h:40,
+2020-12-27 23:16:02 [ INFO ]                  from /usr/aarch64-linux-gnu/include/c++/7/bits/ios_base.h:41,
+2020-12-27 23:16:02 [ INFO ]                  from /usr/aarch64-linux-gnu/include/c++/7/ios:42,
+2020-12-27 23:16:02 [ INFO ]                  from /usr/aarch64-linux-gnu/include/c++/7/ostream:38,
+2020-12-27 23:16:02 [ INFO ]                  from /usr/aarch64-linux-gnu/include/c++/7/iostream:39,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/utils.h:20,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/classify_process.h:20,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:19:
+2020-12-27 23:16:02 [ INFO ] /usr/aarch64-linux-gnu/include/c++/7/bits/basic_string.h:6107:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator<(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+2020-12-27 23:16:02 [ INFO ]      operator<(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+2020-12-27 23:16:02 [ INFO ]      ^~~~~~~~
+2020-12-27 23:16:02 [ ERROR ] /usr/aarch64-linux-gnu/include/c++/7/bits/basic_string.h:6107:5: note:   template argument deduction/substitution failed:
+2020-12-27 23:16:02 [ INFO ] /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:145:37: note:   'std::ostream {aka std::basic_ostream<char>}' is not derived from 'const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>'
+2020-12-27 23:16:02 [ INFO ]      cout<<"dahu:"<<reiszeMat.size()<endl;
+2020-12-27 23:16:02 [ INFO ]                                      ^~~~
+2020-12-27 23:16:02 [ INFO ] In file included from /usr/aarch64-linux-gnu/include/c++/7/string:52:0,
+2020-12-27 23:16:02 [ INFO ]                  from /usr/aarch64-linux-gnu/include/c++/7/bits/locale_classes.h:40,
+2020-12-27 23:16:02 [ INFO ]                  from /usr/aarch64-linux-gnu/include/c++/7/bits/ios_base.h:41,
+2020-12-27 23:16:02 [ INFO ]                  from /usr/aarch64-linux-gnu/include/c++/7/ios:42,
+2020-12-27 23:16:02 [ INFO ]                  from /usr/aarch64-linux-gnu/include/c++/7/ostream:38,
+2020-12-27 23:16:02 [ INFO ]                  from /usr/aarch64-linux-gnu/include/c++/7/iostream:39,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/utils.h:20,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/classify_process.h:20,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:19:
+2020-12-27 23:16:02 [ INFO ] /usr/aarch64-linux-gnu/include/c++/7/bits/basic_string.h:6119:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator<(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+2020-12-27 23:16:02 [ INFO ]      operator<(const _CharT* __lhs,
+2020-12-27 23:16:02 [ INFO ]      ^~~~~~~~
+2020-12-27 23:16:02 [ ERROR ] /usr/aarch64-linux-gnu/include/c++/7/bits/basic_string.h:6119:5: note:   template argument deduction/substitution failed:
+2020-12-27 23:16:02 [ INFO ] /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:145:37: note:   mismatched types 'const _CharT*' and 'std::basic_ostream<char>'
+2020-12-27 23:16:02 [ INFO ]      cout<<"dahu:"<<reiszeMat.size()<endl;
+2020-12-27 23:16:02 [ INFO ]                                      ^~~~
+2020-12-27 23:16:02 [ INFO ] In file included from /usr/aarch64-linux-gnu/include/c++/7/bits/ios_base.h:46:0,
+2020-12-27 23:16:02 [ INFO ]                  from /usr/aarch64-linux-gnu/include/c++/7/ios:42,
+2020-12-27 23:16:02 [ INFO ]                  from /usr/aarch64-linux-gnu/include/c++/7/ostream:38,
+2020-12-27 23:16:02 [ INFO ]                  from /usr/aarch64-linux-gnu/include/c++/7/iostream:39,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/utils.h:20,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/classify_process.h:20,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:19:
+2020-12-27 23:16:02 [ ERROR ] /usr/aarch64-linux-gnu/include/c++/7/system_error:208:3: note: candidate: bool std::operator<(const std::error_code&, const std::error_code&)
+2020-12-27 23:16:02 [ ERROR ]    operator<(const error_code& __lhs, const error_code& __rhs) noexcept
+2020-12-27 23:16:02 [ INFO ]    ^~~~~~~~
+2020-12-27 23:16:02 [ ERROR ] /usr/aarch64-linux-gnu/include/c++/7/system_error:208:3: note:   no known conversion for argument 1 from 'std::ostream {aka std::basic_ostream<char>}' to 'const std::error_code&'
+2020-12-27 23:16:02 [ ERROR ] /usr/aarch64-linux-gnu/include/c++/7/system_error:282:3: note: candidate: bool std::operator<(const std::error_condition&, const std::error_condition&)
+2020-12-27 23:16:02 [ ERROR ]    operator<(const error_condition& __lhs,
+2020-12-27 23:16:02 [ INFO ]    ^~~~~~~~
+2020-12-27 23:16:02 [ ERROR ] /usr/aarch64-linux-gnu/include/c++/7/system_error:282:3: note:   no known conversion for argument 1 from 'std::ostream {aka std::basic_ostream<char>}' to 'const std::error_condition&'
+2020-12-27 23:16:02 [ INFO ] In file included from /usr/aarch64-linux-gnu/include/c++/7/vector:64:0,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/utils.h:21,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/classify_process.h:20,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:19:
+2020-12-27 23:16:02 [ INFO ] /usr/aarch64-linux-gnu/include/c++/7/bits/stl_vector.h:1618:5: note: candidate: template<class _Tp, class _Alloc> bool std::operator<(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)
+2020-12-27 23:16:02 [ INFO ]      operator<(const vector<_Tp, _Alloc>& __x, const vector<_Tp, _Alloc>& __y)
+2020-12-27 23:16:02 [ INFO ]      ^~~~~~~~
+2020-12-27 23:16:02 [ ERROR ] /usr/aarch64-linux-gnu/include/c++/7/bits/stl_vector.h:1618:5: note:   template argument deduction/substitution failed:
+2020-12-27 23:16:02 [ INFO ] /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:145:37: note:   'std::ostream {aka std::basic_ostream<char>}' is not derived from 'const std::vector<_Tp, _Alloc>'
+2020-12-27 23:16:02 [ INFO ]      cout<<"dahu:"<<reiszeMat.size()<endl;
+2020-12-27 23:16:02 [ INFO ]                                      ^~~~
+2020-12-27 23:16:02 [ INFO ] In file included from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/core/cvdef.h:722:0,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/core.hpp:52,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/opencv.hpp:52,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/utils.h:24,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/classify_process.h:20,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:19:
+2020-12-27 23:16:02 [ INFO ] /usr/aarch64-linux-gnu/include/c++/7/array:262:5: note: candidate: template<class _Tp, long unsigned int _Nm> bool std::operator<(const std::array<_Tp, _Nm>&, const std::array<_Tp, _Nm>&)
+2020-12-27 23:16:02 [ INFO ]      operator<(const array<_Tp, _Nm>& __a, const array<_Tp, _Nm>& __b)
+2020-12-27 23:16:02 [ INFO ]      ^~~~~~~~
+2020-12-27 23:16:02 [ ERROR ] /usr/aarch64-linux-gnu/include/c++/7/array:262:5: note:   template argument deduction/substitution failed:
+2020-12-27 23:16:02 [ INFO ] /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:145:37: note:   'std::ostream {aka std::basic_ostream<char>}' is not derived from 'const std::array<_Tp, _Nm>'
+2020-12-27 23:16:02 [ INFO ]      cout<<"dahu:"<<reiszeMat.size()<endl;
+2020-12-27 23:16:02 [ INFO ]                                      ^~~~
+2020-12-27 23:16:02 [ INFO ] In file included from /usr/aarch64-linux-gnu/include/c++/7/bits/unique_ptr.h:37:0,
+2020-12-27 23:16:02 [ INFO ]                  from /usr/aarch64-linux-gnu/include/c++/7/memory:80,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/core/cvstd_wrapper.hpp:11,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/core/cvstd.hpp:81,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/core/base.hpp:58,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/core.hpp:54,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/opencv.hpp:52,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/utils.h:24,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/classify_process.h:20,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:19:
+2020-12-27 23:16:02 [ INFO ] /usr/aarch64-linux-gnu/include/c++/7/tuple:1410:5: note: candidate: template<class ... _TElements, class ... _UElements> constexpr bool std::operator<(const std::tuple<_Tps ...>&, const std::tuple<_Elements ...>&)
+2020-12-27 23:16:02 [ INFO ]      operator<(const tuple<_TElements...>& __t,
+2020-12-27 23:16:02 [ INFO ]      ^~~~~~~~
+2020-12-27 23:16:02 [ ERROR ] /usr/aarch64-linux-gnu/include/c++/7/tuple:1410:5: note:   template argument deduction/substitution failed:
+2020-12-27 23:16:02 [ INFO ] /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:145:37: note:   'std::ostream {aka std::basic_ostream<char>}' is not derived from 'const std::tuple<_Tps ...>'
+2020-12-27 23:16:02 [ INFO ]      cout<<"dahu:"<<reiszeMat.size()<endl;
+2020-12-27 23:16:02 [ INFO ]                                      ^~~~
+2020-12-27 23:16:02 [ INFO ] In file included from /usr/aarch64-linux-gnu/include/c++/7/memory:80:0,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/core/cvstd_wrapper.hpp:11,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/core/cvstd.hpp:81,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/core/base.hpp:58,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/core.hpp:54,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/opencv.hpp:52,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/utils.h:24,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/classify_process.h:20,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:19:
+2020-12-27 23:16:02 [ INFO ] /usr/aarch64-linux-gnu/include/c++/7/bits/unique_ptr.h:713:5: note: candidate: template<class _Tp, class _Dp, class _Up, class _Ep> bool std::operator<(const std::unique_ptr<_Tp, _Dp>&, const std::unique_ptr<_Up, _Ep>&)
+2020-12-27 23:16:02 [ INFO ]      operator<(const unique_ptr<_Tp, _Dp>& __x,
+2020-12-27 23:16:02 [ INFO ]      ^~~~~~~~
+2020-12-27 23:16:02 [ ERROR ] /usr/aarch64-linux-gnu/include/c++/7/bits/unique_ptr.h:713:5: note:   template argument deduction/substitution failed:
+2020-12-27 23:16:02 [ INFO ] /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:145:37: note:   'std::ostream {aka std::basic_ostream<char>}' is not derived from 'const std::unique_ptr<_Tp, _Dp>'
+2020-12-27 23:16:02 [ INFO ]      cout<<"dahu:"<<reiszeMat.size()<endl;
+2020-12-27 23:16:02 [ INFO ]                                      ^~~~
+2020-12-27 23:16:02 [ INFO ] In file included from /usr/aarch64-linux-gnu/include/c++/7/memory:80:0,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/core/cvstd_wrapper.hpp:11,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/core/cvstd.hpp:81,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/core/base.hpp:58,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/core.hpp:54,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/opencv.hpp:52,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/utils.h:24,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/classify_process.h:20,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:19:
+2020-12-27 23:16:02 [ INFO ] /usr/aarch64-linux-gnu/include/c++/7/bits/unique_ptr.h:724:5: note: candidate: template<class _Tp, class _Dp> bool std::operator<(const std::unique_ptr<_Tp, _Dp>&, std::nullptr_t)
+2020-12-27 23:16:02 [ INFO ]      operator<(const unique_ptr<_Tp, _Dp>& __x, nullptr_t)
+2020-12-27 23:16:02 [ INFO ]      ^~~~~~~~
+2020-12-27 23:16:02 [ ERROR ] /usr/aarch64-linux-gnu/include/c++/7/bits/unique_ptr.h:724:5: note:   template argument deduction/substitution failed:
+2020-12-27 23:16:02 [ INFO ] /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:145:37: note:   'std::ostream {aka std::basic_ostream<char>}' is not derived from 'const std::unique_ptr<_Tp, _Dp>'
+2020-12-27 23:16:02 [ INFO ]      cout<<"dahu:"<<reiszeMat.size()<endl;
+2020-12-27 23:16:02 [ INFO ]                                      ^~~~
+2020-12-27 23:16:02 [ INFO ] In file included from /usr/aarch64-linux-gnu/include/c++/7/memory:80:0,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/core/cvstd_wrapper.hpp:11,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/core/cvstd.hpp:81,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/core/base.hpp:58,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/core.hpp:54,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/opencv.hpp:52,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/utils.h:24,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/classify_process.h:20,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:19:
+2020-12-27 23:16:02 [ INFO ] /usr/aarch64-linux-gnu/include/c++/7/bits/unique_ptr.h:730:5: note: candidate: template<class _Tp, class _Dp> bool std::operator<(std::nullptr_t, const std::unique_ptr<_Tp, _Dp>&)
+2020-12-27 23:16:02 [ INFO ]      operator<(nullptr_t, const unique_ptr<_Tp, _Dp>& __x)
+2020-12-27 23:16:02 [ INFO ]      ^~~~~~~~
+2020-12-27 23:16:02 [ ERROR ] /usr/aarch64-linux-gnu/include/c++/7/bits/unique_ptr.h:730:5: note:   template argument deduction/substitution failed:
+2020-12-27 23:16:02 [ INFO ] /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:145:37: note:   couldn't deduce template parameter '_Tp'
+2020-12-27 23:16:02 [ INFO ]      cout<<"dahu:"<<reiszeMat.size()<endl;
+2020-12-27 23:16:02 [ INFO ]                                      ^~~~
+2020-12-27 23:16:02 [ INFO ] In file included from /usr/aarch64-linux-gnu/include/c++/7/bits/shared_ptr.h:52:0,
+2020-12-27 23:16:02 [ INFO ]                  from /usr/aarch64-linux-gnu/include/c++/7/memory:81,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/core/cvstd_wrapper.hpp:11,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/core/cvstd.hpp:81,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/core/base.hpp:58,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/core.hpp:54,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/opencv.hpp:52,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/utils.h:24,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/classify_process.h:20,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:19:
+2020-12-27 23:16:02 [ INFO ] /usr/aarch64-linux-gnu/include/c++/7/bits/shared_ptr_base.h:1441:5: note: candidate: template<class _Tp, class _Up, __gnu_cxx::_Lock_policy _Lp> bool std::operator<(const std::__shared_ptr<_Tp1, _Lp>&, const std::__shared_ptr<_Tp2, _Lp>&)
+2020-12-27 23:16:02 [ INFO ]      operator<(const __shared_ptr<_Tp, _Lp>& __a,
+2020-12-27 23:16:02 [ INFO ]      ^~~~~~~~
+2020-12-27 23:16:02 [ ERROR ] /usr/aarch64-linux-gnu/include/c++/7/bits/shared_ptr_base.h:1441:5: note:   template argument deduction/substitution failed:
+2020-12-27 23:16:02 [ INFO ] /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:145:37: note:   'std::ostream {aka std::basic_ostream<char>}' is not derived from 'const std::__shared_ptr<_Tp1, _Lp>'
+2020-12-27 23:16:02 [ INFO ]      cout<<"dahu:"<<reiszeMat.size()<endl;
+2020-12-27 23:16:02 [ INFO ]                                      ^~~~
+2020-12-27 23:16:02 [ INFO ] In file included from /usr/aarch64-linux-gnu/include/c++/7/bits/shared_ptr.h:52:0,
+2020-12-27 23:16:02 [ INFO ]                  from /usr/aarch64-linux-gnu/include/c++/7/memory:81,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/core/cvstd_wrapper.hpp:11,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/core/cvstd.hpp:81,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/core/base.hpp:58,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/core.hpp:54,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/opencv.hpp:52,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/utils.h:24,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/classify_process.h:20,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:19:
+2020-12-27 23:16:02 [ INFO ] /usr/aarch64-linux-gnu/include/c++/7/bits/shared_ptr_base.h:1452:5: note: candidate: template<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator<(const std::__shared_ptr<_Tp, _Lp>&, std::nullptr_t)
+2020-12-27 23:16:02 [ INFO ]      operator<(const __shared_ptr<_Tp, _Lp>& __a, nullptr_t) noexcept
+2020-12-27 23:16:02 [ INFO ]      ^~~~~~~~
+2020-12-27 23:16:02 [ ERROR ] /usr/aarch64-linux-gnu/include/c++/7/bits/shared_ptr_base.h:1452:5: note:   template argument deduction/substitution failed:
+2020-12-27 23:16:02 [ INFO ] /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:145:37: note:   'std::ostream {aka std::basic_ostream<char>}' is not derived from 'const std::__shared_ptr<_Tp, _Lp>'
+2020-12-27 23:16:02 [ INFO ]      cout<<"dahu:"<<reiszeMat.size()<endl;
+2020-12-27 23:16:02 [ INFO ]                                      ^~~~
+2020-12-27 23:16:02 [ INFO ] In file included from /usr/aarch64-linux-gnu/include/c++/7/bits/shared_ptr.h:52:0,
+2020-12-27 23:16:02 [ INFO ]                  from /usr/aarch64-linux-gnu/include/c++/7/memory:81,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/core/cvstd_wrapper.hpp:11,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/core/cvstd.hpp:81,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/core/base.hpp:58,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/core.hpp:54,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/opencv.hpp:52,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/utils.h:24,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/classify_process.h:20,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:19:
+2020-12-27 23:16:02 [ INFO ] /usr/aarch64-linux-gnu/include/c++/7/bits/shared_ptr_base.h:1460:5: note: candidate: template<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator<(std::nullptr_t, const std::__shared_ptr<_Tp, _Lp>&)
+2020-12-27 23:16:02 [ INFO ]      operator<(nullptr_t, const __shared_ptr<_Tp, _Lp>& __a) noexcept
+2020-12-27 23:16:02 [ INFO ]      ^~~~~~~~
+2020-12-27 23:16:02 [ ERROR ] /usr/aarch64-linux-gnu/include/c++/7/bits/shared_ptr_base.h:1460:5: note:   template argument deduction/substitution failed:
+2020-12-27 23:16:02 [ INFO ] /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:145:37: note:   couldn't deduce template parameter '_Tp'
+2020-12-27 23:16:02 [ INFO ]      cout<<"dahu:"<<reiszeMat.size()<endl;
+2020-12-27 23:16:02 [ INFO ]                                      ^~~~
+2020-12-27 23:16:02 [ INFO ] In file included from /usr/aarch64-linux-gnu/include/c++/7/memory:81:0,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/core/cvstd_wrapper.hpp:11,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/core/cvstd.hpp:81,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/core/base.hpp:58,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/core.hpp:54,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/opencv.hpp:52,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/utils.h:24,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/classify_process.h:20,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:19:
+2020-12-27 23:16:02 [ INFO ] /usr/aarch64-linux-gnu/include/c++/7/bits/shared_ptr.h:398:5: note: candidate: template<class _Tp, class _Up> bool std::operator<(const std::shared_ptr<_Tp>&, const std::shared_ptr<_Up>&)
+2020-12-27 23:16:02 [ INFO ]      operator<(const shared_ptr<_Tp>& __a, const shared_ptr<_Up>& __b) noexcept
+2020-12-27 23:16:02 [ INFO ]      ^~~~~~~~
+2020-12-27 23:16:02 [ ERROR ] /usr/aarch64-linux-gnu/include/c++/7/bits/shared_ptr.h:398:5: note:   template argument deduction/substitution failed:
+2020-12-27 23:16:02 [ INFO ] /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:145:37: note:   'std::ostream {aka std::basic_ostream<char>}' is not derived from 'const std::shared_ptr<_Tp>'
+2020-12-27 23:16:02 [ INFO ]      cout<<"dahu:"<<reiszeMat.size()<endl;
+2020-12-27 23:16:02 [ INFO ]                                      ^~~~
+2020-12-27 23:16:02 [ INFO ] In file included from /usr/aarch64-linux-gnu/include/c++/7/memory:81:0,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/core/cvstd_wrapper.hpp:11,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/core/cvstd.hpp:81,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/core/base.hpp:58,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/core.hpp:54,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/opencv.hpp:52,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/utils.h:24,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/classify_process.h:20,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:19:
+2020-12-27 23:16:02 [ INFO ] /usr/aarch64-linux-gnu/include/c++/7/bits/shared_ptr.h:408:5: note: candidate: template<class _Tp> bool std::operator<(const std::shared_ptr<_Tp>&, std::nullptr_t)
+2020-12-27 23:16:02 [ INFO ]      operator<(const shared_ptr<_Tp>& __a, nullptr_t) noexcept
+2020-12-27 23:16:02 [ INFO ]      ^~~~~~~~
+2020-12-27 23:16:02 [ ERROR ] /usr/aarch64-linux-gnu/include/c++/7/bits/shared_ptr.h:408:5: note:   template argument deduction/substitution failed:
+2020-12-27 23:16:02 [ INFO ] /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:145:37: note:   'std::ostream {aka std::basic_ostream<char>}' is not derived from 'const std::shared_ptr<_Tp>'
+2020-12-27 23:16:02 [ INFO ]      cout<<"dahu:"<<reiszeMat.size()<endl;
+2020-12-27 23:16:02 [ INFO ]                                      ^~~~
+2020-12-27 23:16:02 [ INFO ] In file included from /usr/aarch64-linux-gnu/include/c++/7/memory:81:0,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/core/cvstd_wrapper.hpp:11,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/core/cvstd.hpp:81,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/core/base.hpp:58,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/core.hpp:54,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/opencv.hpp:52,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/utils.h:24,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/classify_process.h:20,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:19:
+2020-12-27 23:16:02 [ INFO ] /usr/aarch64-linux-gnu/include/c++/7/bits/shared_ptr.h:416:5: note: candidate: template<class _Tp> bool std::operator<(std::nullptr_t, const std::shared_ptr<_Tp>&)
+2020-12-27 23:16:02 [ INFO ]      operator<(nullptr_t, const shared_ptr<_Tp>& __a) noexcept
+2020-12-27 23:16:02 [ INFO ]      ^~~~~~~~
+2020-12-27 23:16:02 [ ERROR ] /usr/aarch64-linux-gnu/include/c++/7/bits/shared_ptr.h:416:5: note:   template argument deduction/substitution failed:
+2020-12-27 23:16:02 [ INFO ] /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:145:37: note:   couldn't deduce template parameter '_Tp'
+2020-12-27 23:16:02 [ INFO ]      cout<<"dahu:"<<reiszeMat.size()<endl;
+2020-12-27 23:16:02 [ INFO ]                                      ^~~~
+2020-12-27 23:16:02 [ INFO ] In file included from /usr/aarch64-linux-gnu/include/c++/7/map:60:0,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/dnn/dict.hpp:43,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/dnn/dnn.hpp:51,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/dnn.hpp:76,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/opencv.hpp:62,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/utils.h:24,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/classify_process.h:20,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:19:
+2020-12-27 23:16:02 [ INFO ] /usr/aarch64-linux-gnu/include/c++/7/bits/stl_tree.h:1543:5: note: candidate: template<class _Key, class _Val, class _KeyOfValue, class _Compare, class _Alloc> bool std::operator<(const std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>&, const std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>&)
+2020-12-27 23:16:02 [ INFO ]      operator<(const _Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>& __x,
+2020-12-27 23:16:02 [ INFO ]      ^~~~~~~~
+2020-12-27 23:16:02 [ ERROR ] /usr/aarch64-linux-gnu/include/c++/7/bits/stl_tree.h:1543:5: note:   template argument deduction/substitution failed:
+2020-12-27 23:16:02 [ INFO ] /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:145:37: note:   'std::ostream {aka std::basic_ostream<char>}' is not derived from 'const std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>'
+2020-12-27 23:16:02 [ INFO ]      cout<<"dahu:"<<reiszeMat.size()<endl;
+2020-12-27 23:16:02 [ INFO ]                                      ^~~~
+2020-12-27 23:16:02 [ INFO ] In file included from /usr/aarch64-linux-gnu/include/c++/7/map:61:0,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/dnn/dict.hpp:43,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/dnn/dnn.hpp:51,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/dnn.hpp:76,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/opencv.hpp:62,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/utils.h:24,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/classify_process.h:20,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:19:
+2020-12-27 23:16:02 [ INFO ] /usr/aarch64-linux-gnu/include/c++/7/bits/stl_map.h:1411:5: note: candidate: template<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator<(const std::map<_Key, _Tp, _Compare, _Alloc>&, const std::map<_Key, _Tp, _Compare, _Alloc>&)
+2020-12-27 23:16:02 [ INFO ]      operator<(const map<_Key, _Tp, _Compare, _Alloc>& __x,
+2020-12-27 23:16:02 [ INFO ]      ^~~~~~~~
+2020-12-27 23:16:02 [ ERROR ] /usr/aarch64-linux-gnu/include/c++/7/bits/stl_map.h:1411:5: note:   template argument deduction/substitution failed:
+2020-12-27 23:16:02 [ INFO ] /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:145:37: note:   'std::ostream {aka std::basic_ostream<char>}' is not derived from 'const std::map<_Key, _Tp, _Compare, _Alloc>'
+2020-12-27 23:16:02 [ INFO ]      cout<<"dahu:"<<reiszeMat.size()<endl;
+2020-12-27 23:16:02 [ INFO ]                                      ^~~~
+2020-12-27 23:16:02 [ INFO ] In file included from /usr/aarch64-linux-gnu/include/c++/7/map:62:0,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/dnn/dict.hpp:43,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/dnn/dnn.hpp:51,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/dnn.hpp:76,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/opencv.hpp:62,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/utils.h:24,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/classify_process.h:20,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:19:
+2020-12-27 23:16:02 [ INFO ] /usr/aarch64-linux-gnu/include/c++/7/bits/stl_multimap.h:1076:5: note: candidate: template<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator<(const std::multimap<_Key, _Tp, _Compare, _Alloc>&, const std::multimap<_Key, _Tp, _Compare, _Alloc>&)
+2020-12-27 23:16:02 [ INFO ]      operator<(const multimap<_Key, _Tp, _Compare, _Alloc>& __x,
+2020-12-27 23:16:02 [ INFO ]      ^~~~~~~~
+2020-12-27 23:16:02 [ ERROR ] /usr/aarch64-linux-gnu/include/c++/7/bits/stl_multimap.h:1076:5: note:   template argument deduction/substitution failed:
+2020-12-27 23:16:02 [ INFO ] /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:145:37: note:   'std::ostream {aka std::basic_ostream<char>}' is not derived from 'const std::multimap<_Key, _Tp, _Compare, _Alloc>'
+2020-12-27 23:16:02 [ INFO ]      cout<<"dahu:"<<reiszeMat.size()<endl;
+2020-12-27 23:16:02 [ INFO ]                                      ^~~~
+2020-12-27 23:16:02 [ INFO ] In file included from /usr/aarch64-linux-gnu/include/c++/7/set:61:0,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/flann/result_set.h:40,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/flann/nn_index.h:36,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/flann/saving.h:38,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/flann/flann_base.hpp:43,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/flann.hpp:48,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/opencv.hpp:65,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/utils.h:24,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/classify_process.h:20,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:19:
+2020-12-27 23:16:02 [ INFO ] /usr/aarch64-linux-gnu/include/c++/7/bits/stl_set.h:930:5: note: candidate: template<class _Key, class _Compare, class _Alloc> bool std::operator<(const std::set<_Key, _Compare, _Alloc>&, const std::set<_Key, _Compare, _Alloc>&)
+2020-12-27 23:16:02 [ INFO ]      operator<(const set<_Key, _Compare, _Alloc>& __x,
+2020-12-27 23:16:02 [ INFO ]      ^~~~~~~~
+2020-12-27 23:16:02 [ ERROR ] /usr/aarch64-linux-gnu/include/c++/7/bits/stl_set.h:930:5: note:   template argument deduction/substitution failed:
+2020-12-27 23:16:02 [ INFO ] /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:145:37: note:   'std::ostream {aka std::basic_ostream<char>}' is not derived from 'const std::set<_Key, _Compare, _Alloc>'
+2020-12-27 23:16:02 [ INFO ]      cout<<"dahu:"<<reiszeMat.size()<endl;
+2020-12-27 23:16:02 [ INFO ]                                      ^~~~
+2020-12-27 23:16:02 [ INFO ] In file included from /usr/aarch64-linux-gnu/include/c++/7/set:62:0,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/flann/result_set.h:40,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/flann/nn_index.h:36,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/flann/saving.h:38,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/flann/flann_base.hpp:43,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/flann.hpp:48,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/opencv.hpp:65,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/utils.h:24,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/classify_process.h:20,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:19:
+2020-12-27 23:16:02 [ INFO ] /usr/aarch64-linux-gnu/include/c++/7/bits/stl_multiset.h:913:5: note: candidate: template<class _Key, class _Compare, class _Alloc> bool std::operator<(const std::multiset<_Key, _Compare, _Alloc>&, const std::multiset<_Key, _Compare, _Alloc>&)
+2020-12-27 23:16:02 [ INFO ]      operator<(const multiset<_Key, _Compare, _Alloc>& __x,
+2020-12-27 23:16:02 [ INFO ]      ^~~~~~~~
+2020-12-27 23:16:02 [ ERROR ] /usr/aarch64-linux-gnu/include/c++/7/bits/stl_multiset.h:913:5: note:   template argument deduction/substitution failed:
+2020-12-27 23:16:02 [ INFO ] /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:145:37: note:   'std::ostream {aka std::basic_ostream<char>}' is not derived from 'const std::multiset<_Key, _Compare, _Alloc>'
+2020-12-27 23:16:02 [ INFO ]      cout<<"dahu:"<<reiszeMat.size()<endl;
+2020-12-27 23:16:02 [ INFO ]                                      ^~~~
+2020-12-27 23:16:02 [ INFO ] In file included from /usr/aarch64-linux-gnu/include/c++/7/list:63:0,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/stitching/detail/util.hpp:46,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp:48,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/stitching.hpp:50,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/opencv.hpp:86,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/utils.h:24,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/classify_process.h:20,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:19:
+2020-12-27 23:16:02 [ INFO ] /usr/aarch64-linux-gnu/include/c++/7/bits/stl_list.h:1918:5: note: candidate: template<class _Tp, class _Alloc> bool std::operator<(const std::__cxx11::list<_Tp, _Alloc>&, const std::__cxx11::list<_Tp, _Alloc>&)
+2020-12-27 23:16:02 [ INFO ]      operator<(const list<_Tp, _Alloc>& __x, const list<_Tp, _Alloc>& __y)
+2020-12-27 23:16:02 [ INFO ]      ^~~~~~~~
+2020-12-27 23:16:02 [ ERROR ] /usr/aarch64-linux-gnu/include/c++/7/bits/stl_list.h:1918:5: note:   template argument deduction/substitution failed:
+2020-12-27 23:16:02 [ INFO ] /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:145:37: note:   'std::ostream {aka std::basic_ostream<char>}' is not derived from 'const std::__cxx11::list<_Tp, _Alloc>'
+2020-12-27 23:16:02 [ INFO ]      cout<<"dahu:"<<reiszeMat.size()<endl;
+2020-12-27 23:16:02 [ INFO ]                                      ^~~~
+2020-12-27 23:16:02 [ INFO ] In file included from /usr/aarch64-linux-gnu/include/c++/7/deque:64:0,
+2020-12-27 23:16:02 [ INFO ]                  from /usr/aarch64-linux-gnu/include/c++/7/queue:60,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/stitching/detail/util_inl.hpp:46,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/stitching/detail/util.hpp:119,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp:48,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/stitching.hpp:50,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/opencv.hpp:86,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/utils.h:24,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/classify_process.h:20,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:19:
+2020-12-27 23:16:02 [ INFO ] /usr/aarch64-linux-gnu/include/c++/7/bits/stl_deque.h:293:5: note: candidate: template<class _Tp, class _Ref, class _Ptr> bool std::operator<(const std::_Deque_iterator<_Tp, _Ref, _Ptr>&, const std::_Deque_iterator<_Tp, _Ref, _Ptr>&)
+2020-12-27 23:16:02 [ INFO ]      operator<(const _Deque_iterator<_Tp, _Ref, _Ptr>& __x,
+2020-12-27 23:16:02 [ INFO ]      ^~~~~~~~
+2020-12-27 23:16:02 [ ERROR ] /usr/aarch64-linux-gnu/include/c++/7/bits/stl_deque.h:293:5: note:   template argument deduction/substitution failed:
+2020-12-27 23:16:02 [ INFO ] /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:145:37: note:   'std::ostream {aka std::basic_ostream<char>}' is not derived from 'const std::_Deque_iterator<_Tp, _Ref, _Ptr>'
+2020-12-27 23:16:02 [ INFO ]      cout<<"dahu:"<<reiszeMat.size()<endl;
+2020-12-27 23:16:02 [ INFO ]                                      ^~~~
+2020-12-27 23:16:02 [ INFO ] In file included from /usr/aarch64-linux-gnu/include/c++/7/deque:64:0,
+2020-12-27 23:16:02 [ INFO ]                  from /usr/aarch64-linux-gnu/include/c++/7/queue:60,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/stitching/detail/util_inl.hpp:46,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/stitching/detail/util.hpp:119,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp:48,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/stitching.hpp:50,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/opencv.hpp:86,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/utils.h:24,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/classify_process.h:20,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:19:
+2020-12-27 23:16:02 [ INFO ] /usr/aarch64-linux-gnu/include/c++/7/bits/stl_deque.h:301:5: note: candidate: template<class _Tp, class _RefL, class _PtrL, class _RefR, class _PtrR> bool std::operator<(const std::_Deque_iterator<_Tp, _Ref, _Ptr>&, const std::_Deque_iterator<_Tp, _RefR, _PtrR>&)
+2020-12-27 23:16:02 [ INFO ]      operator<(const _Deque_iterator<_Tp, _RefL, _PtrL>& __x,
+2020-12-27 23:16:02 [ INFO ]      ^~~~~~~~
+2020-12-27 23:16:02 [ ERROR ] /usr/aarch64-linux-gnu/include/c++/7/bits/stl_deque.h:301:5: note:   template argument deduction/substitution failed:
+2020-12-27 23:16:02 [ INFO ] /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:145:37: note:   'std::ostream {aka std::basic_ostream<char>}' is not derived from 'const std::_Deque_iterator<_Tp, _Ref, _Ptr>'
+2020-12-27 23:16:02 [ INFO ]      cout<<"dahu:"<<reiszeMat.size()<endl;
+2020-12-27 23:16:02 [ INFO ]                                      ^~~~
+2020-12-27 23:16:02 [ INFO ] In file included from /usr/aarch64-linux-gnu/include/c++/7/deque:64:0,
+2020-12-27 23:16:02 [ INFO ]                  from /usr/aarch64-linux-gnu/include/c++/7/queue:60,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/stitching/detail/util_inl.hpp:46,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/stitching/detail/util.hpp:119,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp:48,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/stitching.hpp:50,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/opencv.hpp:86,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/utils.h:24,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/classify_process.h:20,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:19:
+2020-12-27 23:16:02 [ INFO ] /usr/aarch64-linux-gnu/include/c++/7/bits/stl_deque.h:2276:5: note: candidate: template<class _Tp, class _Alloc> bool std::operator<(const std::deque<_Tp, _Alloc>&, const std::deque<_Tp, _Alloc>&)
+2020-12-27 23:16:02 [ INFO ]      operator<(const deque<_Tp, _Alloc>& __x,
+2020-12-27 23:16:02 [ INFO ]      ^~~~~~~~
+2020-12-27 23:16:02 [ ERROR ] /usr/aarch64-linux-gnu/include/c++/7/bits/stl_deque.h:2276:5: note:   template argument deduction/substitution failed:
+2020-12-27 23:16:02 [ INFO ] /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:145:37: note:   'std::ostream {aka std::basic_ostream<char>}' is not derived from 'const std::deque<_Tp, _Alloc>'
+2020-12-27 23:16:02 [ INFO ]      cout<<"dahu:"<<reiszeMat.size()<endl;
+2020-12-27 23:16:02 [ INFO ]                                      ^~~~
+2020-12-27 23:16:02 [ INFO ] In file included from /usr/aarch64-linux-gnu/include/c++/7/queue:64:0,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/stitching/detail/util_inl.hpp:46,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/stitching/detail/util.hpp:119,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp:48,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/stitching.hpp:50,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/ascend_ddk/arm/include/opencv4/opencv2/opencv.hpp:86,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/utils.h:24,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/../inc/classify_process.h:20,
+2020-12-27 23:16:02 [ INFO ]                  from /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:19:
+2020-12-27 23:16:02 [ INFO ] /usr/aarch64-linux-gnu/include/c++/7/bits/stl_queue.h:336:5: note: candidate: template<class _Tp, class _Seq> bool std::operator<(const std::queue<_Tp, _Seq>&, const std::queue<_Tp, _Seq>&)
+2020-12-27 23:16:02 [ INFO ]      operator<(const queue<_Tp, _Seq>& __x, const queue<_Tp, _Seq>& __y)
+2020-12-27 23:16:02 [ INFO ]      ^~~~~~~~
+2020-12-27 23:16:02 [ ERROR ] /usr/aarch64-linux-gnu/include/c++/7/bits/stl_queue.h:336:5: note:   template argument deduction/substitution failed:
+2020-12-27 23:16:02 [ INFO ] /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:145:37: note:   'std::ostream {aka std::basic_ostream<char>}' is not derived from 'const std::queue<_Tp, _Seq>'
+2020-12-27 23:16:02 [ INFO ]      cout<<"dahu:"<<reiszeMat.size()<endl;
+2020-12-27 23:16:02 [ INFO ]                                      ^~~~
+2020-12-27 23:16:03 [ ERROR ] src/CMakeFiles/main.dir/build.make:110: recipe for target 'src/CMakeFiles/main.dir/classify_process.cpp.o' failed
+2020-12-27 23:16:03 [ ERROR ] make[2]: *** [src/CMakeFiles/main.dir/classify_process.cpp.o] Error 1
+2020-12-27 23:16:03 [ ERROR ] CMakeFiles/Makefile2:85: recipe for target 'src/CMakeFiles/main.dir/all' failed
+2020-12-27 23:16:03 [ ERROR ] make[1]: *** [src/CMakeFiles/main.dir/all] Error 2
+2020-12-27 23:16:03 [ ERROR ] Makefile:129: recipe for target 'all' failed
+2020-12-27 23:16:03 [ ERROR ] make: *** [all] Error 2
+2020-12-27 23:16:38 [ INFO ] Build command: 
+2020-12-27 23:16:38 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/Atlas200DK/build/intermediates && cmake /home/dahu/AscendProjects/Atlas200DK -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo Atlas200DK build successfully.
+2020-12-27 23:16:38 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-27 23:16:38 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-27 23:16:38 [ INFO ] -- Configuring done
+2020-12-27 23:16:38 [ INFO ] -- Generating done
+2020-12-27 23:16:38 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/Atlas200DK/build/intermediates
+2020-12-27 23:16:38 [ INFO ] Scanning dependencies of target main
+2020-12-27 23:16:38 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-27 23:16:43 [ INFO ] [ 40%] Linking CXX executable ../../../out/main
+2020-12-27 23:16:43 [ INFO ] [100%] Built target main
+2020-12-27 23:16:43 [ INFO ] Atlas200DK build successfully.
+2020-12-27 23:22:31 [ INFO ] Build command: 
+2020-12-27 23:22:31 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/Atlas200DK/build/intermediates && cmake /home/dahu/AscendProjects/Atlas200DK -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo Atlas200DK build successfully.
+2020-12-27 23:22:31 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-27 23:22:31 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-27 23:22:31 [ INFO ] -- Configuring done
+2020-12-27 23:22:31 [ INFO ] -- Generating done
+2020-12-27 23:22:31 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/Atlas200DK/build/intermediates
+2020-12-27 23:22:32 [ INFO ] Scanning dependencies of target main
+2020-12-27 23:22:32 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-27 23:22:35 [ INFO ] [ 40%] Linking CXX executable ../../../out/main
+2020-12-27 23:22:35 [ INFO ] [100%] Built target main
+2020-12-27 23:22:35 [ INFO ] Atlas200DK build successfully.
+2020-12-27 23:24:05 [ INFO ] Build command: 
+2020-12-27 23:24:05 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/Atlas200DK/build/intermediates && cmake /home/dahu/AscendProjects/Atlas200DK -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo Atlas200DK build successfully.
+2020-12-27 23:24:05 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-27 23:24:05 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-27 23:24:05 [ INFO ] -- Configuring done
+2020-12-27 23:24:05 [ INFO ] -- Generating done
+2020-12-27 23:24:05 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/Atlas200DK/build/intermediates
+2020-12-27 23:24:05 [ INFO ] Scanning dependencies of target main
+2020-12-27 23:24:05 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-27 23:24:07 [ INFO ] [ 40%] Linking CXX executable ../../../out/main
+2020-12-27 23:24:08 [ INFO ] [100%] Built target main
+2020-12-27 23:24:08 [ INFO ] Atlas200DK build successfully.
+2020-12-27 23:32:15 [ INFO ] Build command: 
+2020-12-27 23:32:15 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/Atlas200DK/build/intermediates && cmake /home/dahu/AscendProjects/Atlas200DK -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo Atlas200DK build successfully.
+2020-12-27 23:32:15 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-27 23:32:15 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-27 23:32:15 [ INFO ] -- Configuring done
+2020-12-27 23:32:15 [ INFO ] -- Generating done
+2020-12-27 23:32:15 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/Atlas200DK/build/intermediates
+2020-12-27 23:32:15 [ INFO ] Scanning dependencies of target main
+2020-12-27 23:32:15 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-27 23:32:17 [ INFO ] /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp: In member function 'Result ClassifyProcess::Preprocess(const string&)':
+2020-12-27 23:32:17 [ ERROR ] /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:146:5: error: expected ';' before 'for'
+2020-12-27 23:32:17 [ INFO ]      for(int i =0;i<10;i++)
+2020-12-27 23:32:17 [ INFO ]      ^~~
+2020-12-27 23:32:17 [ ERROR ] /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:146:18: error: 'i' was not declared in this scope
+2020-12-27 23:32:17 [ INFO ]      for(int i =0;i<10;i++)
+2020-12-27 23:32:17 [ INFO ]                   ^
+2020-12-27 23:32:18 [ ERROR ] src/CMakeFiles/main.dir/build.make:110: recipe for target 'src/CMakeFiles/main.dir/classify_process.cpp.o' failed
+2020-12-27 23:32:18 [ ERROR ] make[2]: *** [src/CMakeFiles/main.dir/classify_process.cpp.o] Error 1
+2020-12-27 23:32:18 [ ERROR ] CMakeFiles/Makefile2:85: recipe for target 'src/CMakeFiles/main.dir/all' failed
+2020-12-27 23:32:18 [ ERROR ] make[1]: *** [src/CMakeFiles/main.dir/all] Error 2
+2020-12-27 23:32:18 [ ERROR ] Makefile:129: recipe for target 'all' failed
+2020-12-27 23:32:18 [ ERROR ] make: *** [all] Error 2
+2020-12-27 23:32:36 [ INFO ] Build command: 
+2020-12-27 23:32:36 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/Atlas200DK/build/intermediates && cmake /home/dahu/AscendProjects/Atlas200DK -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo Atlas200DK build successfully.
+2020-12-27 23:32:36 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-27 23:32:36 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-27 23:32:36 [ INFO ] -- Configuring done
+2020-12-27 23:32:36 [ INFO ] -- Generating done
+2020-12-27 23:32:36 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/Atlas200DK/build/intermediates
+2020-12-27 23:32:36 [ INFO ] Scanning dependencies of target main
+2020-12-27 23:32:36 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-27 23:32:39 [ INFO ] [ 40%] Linking CXX executable ../../../out/main
+2020-12-27 23:32:40 [ INFO ] [100%] Built target main
+2020-12-27 23:32:40 [ INFO ] Atlas200DK build successfully.
+2020-12-27 23:33:14 [ INFO ] Build command: 
+2020-12-27 23:33:14 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/Atlas200DK/build/intermediates && cmake /home/dahu/AscendProjects/Atlas200DK -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo Atlas200DK build successfully.
+2020-12-27 23:33:14 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-27 23:33:14 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-27 23:33:14 [ INFO ] -- Configuring done
+2020-12-27 23:33:14 [ INFO ] -- Generating done
+2020-12-27 23:33:14 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/Atlas200DK/build/intermediates
+2020-12-27 23:33:14 [ INFO ] Scanning dependencies of target main
+2020-12-27 23:33:14 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-27 23:33:16 [ INFO ] [ 40%] Linking CXX executable ../../../out/main
+2020-12-27 23:33:16 [ INFO ] [100%] Built target main
+2020-12-27 23:33:17 [ INFO ] Atlas200DK build successfully.
+2020-12-27 23:33:46 [ INFO ] Build command: 
+2020-12-27 23:33:46 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/Atlas200DK/build/intermediates && cmake /home/dahu/AscendProjects/Atlas200DK -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo Atlas200DK build successfully.
+2020-12-27 23:33:46 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-27 23:33:46 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-27 23:33:46 [ INFO ] -- Configuring done
+2020-12-27 23:33:46 [ INFO ] -- Generating done
+2020-12-27 23:33:46 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/Atlas200DK/build/intermediates
+2020-12-27 23:33:46 [ INFO ] Scanning dependencies of target main
+2020-12-27 23:33:46 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-27 23:33:49 [ INFO ] [ 40%] Linking CXX executable ../../../out/main
+2020-12-27 23:33:49 [ INFO ] [100%] Built target main
+2020-12-27 23:33:49 [ INFO ] Atlas200DK build successfully.
+2020-12-27 23:46:05 [ INFO ] Build command: 
+2020-12-27 23:46:05 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/Atlas200DK/build/intermediates && cmake /home/dahu/AscendProjects/Atlas200DK -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo Atlas200DK build successfully.
+2020-12-27 23:46:05 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-27 23:46:05 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-27 23:46:05 [ INFO ] -- Configuring done
+2020-12-27 23:46:05 [ INFO ] -- Generating done
+2020-12-27 23:46:05 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/Atlas200DK/build/intermediates
+2020-12-27 23:46:06 [ INFO ] Scanning dependencies of target main
+2020-12-27 23:46:06 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-27 23:46:09 [ INFO ] [ 40%] Linking CXX executable ../../../out/main
+2020-12-27 23:46:09 [ INFO ] [100%] Built target main
+2020-12-27 23:46:09 [ INFO ] Atlas200DK build successfully.
+2020-12-27 23:49:31 [ INFO ] Build command: 
+2020-12-27 23:49:31 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/Atlas200DK/build/intermediates && cmake /home/dahu/AscendProjects/Atlas200DK -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo Atlas200DK build successfully.
+2020-12-27 23:49:31 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-27 23:49:31 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-27 23:49:31 [ INFO ] -- Configuring done
+2020-12-27 23:49:31 [ INFO ] -- Generating done
+2020-12-27 23:49:31 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/Atlas200DK/build/intermediates
+2020-12-27 23:49:31 [ INFO ] Scanning dependencies of target main
+2020-12-27 23:49:31 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-27 23:49:33 [ INFO ] /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp: In member function 'Result ClassifyProcess::Preprocess(const string&)':
+2020-12-27 23:49:33 [ ERROR ] /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:145:24: error: expected primary-expression before ';' token
+2020-12-27 23:49:33 [ INFO ]      float *input_ptr = ;
+2020-12-27 23:49:33 [ INFO ]                         ^
+2020-12-27 23:49:34 [ ERROR ] src/CMakeFiles/main.dir/build.make:110: recipe for target 'src/CMakeFiles/main.dir/classify_process.cpp.o' failed
+2020-12-27 23:49:34 [ ERROR ] make[2]: *** [src/CMakeFiles/main.dir/classify_process.cpp.o] Error 1
+2020-12-27 23:49:34 [ ERROR ] CMakeFiles/Makefile2:85: recipe for target 'src/CMakeFiles/main.dir/all' failed
+2020-12-27 23:49:34 [ ERROR ] make[1]: *** [src/CMakeFiles/main.dir/all] Error 2
+2020-12-27 23:49:34 [ ERROR ] Makefile:129: recipe for target 'all' failed
+2020-12-27 23:49:34 [ ERROR ] make: *** [all] Error 2
+2020-12-27 23:50:25 [ INFO ] Build command: 
+2020-12-27 23:50:25 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/Atlas200DK/build/intermediates && cmake /home/dahu/AscendProjects/Atlas200DK -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo Atlas200DK build successfully.
+2020-12-27 23:50:25 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-27 23:50:25 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-27 23:50:25 [ INFO ] -- Configuring done
+2020-12-27 23:50:25 [ INFO ] -- Generating done
+2020-12-27 23:50:25 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/Atlas200DK/build/intermediates
+2020-12-27 23:50:25 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-27 23:50:27 [ INFO ] /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp: In member function 'Result ClassifyProcess::Preprocess(const string&)':
+2020-12-27 23:50:27 [ ERROR ] /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:145:24: error: expected primary-expression before ';' token
+2020-12-27 23:50:27 [ INFO ]      float *input_ptr = ;
+2020-12-27 23:50:27 [ INFO ]                         ^
+2020-12-27 23:50:28 [ ERROR ] src/CMakeFiles/main.dir/build.make:110: recipe for target 'src/CMakeFiles/main.dir/classify_process.cpp.o' failed
+2020-12-27 23:50:28 [ ERROR ] make[2]: *** [src/CMakeFiles/main.dir/classify_process.cpp.o] Error 1
+2020-12-27 23:50:28 [ ERROR ] CMakeFiles/Makefile2:85: recipe for target 'src/CMakeFiles/main.dir/all' failed
+2020-12-27 23:50:28 [ ERROR ] make[1]: *** [src/CMakeFiles/main.dir/all] Error 2
+2020-12-27 23:50:28 [ ERROR ] Makefile:129: recipe for target 'all' failed
+2020-12-27 23:50:28 [ ERROR ] make: *** [all] Error 2
+2020-12-27 23:50:43 [ INFO ] Build command: 
+2020-12-27 23:50:43 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/Atlas200DK/build/intermediates && cmake /home/dahu/AscendProjects/Atlas200DK -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo Atlas200DK build successfully.
+2020-12-27 23:50:43 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-27 23:50:43 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-27 23:50:43 [ INFO ] -- Configuring done
+2020-12-27 23:50:43 [ INFO ] -- Generating done
+2020-12-27 23:50:43 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/Atlas200DK/build/intermediates
+2020-12-27 23:50:43 [ INFO ] Scanning dependencies of target main
+2020-12-27 23:50:44 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-27 23:50:45 [ INFO ] /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp: In member function 'Result ClassifyProcess::Preprocess(const string&)':
+2020-12-27 23:50:45 [ ERROR ] /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:146:27: error: 'input_ptr' was not declared in this scope
+2020-12-27 23:50:45 [ INFO ]      cout<<"dahu:"<<sizeof(input_ptr);
+2020-12-27 23:50:45 [ INFO ]                            ^~~~~~~~~
+2020-12-27 23:50:45 [ INFO ] /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:146:27: note: suggested alternative: 'inputBuf_'
+2020-12-27 23:50:45 [ INFO ]      cout<<"dahu:"<<sizeof(input_ptr);
+2020-12-27 23:50:45 [ INFO ]                            ^~~~~~~~~
+2020-12-27 23:50:45 [ INFO ]                            inputBuf_
+2020-12-27 23:50:46 [ ERROR ] src/CMakeFiles/main.dir/build.make:110: recipe for target 'src/CMakeFiles/main.dir/classify_process.cpp.o' failed
+2020-12-27 23:50:46 [ ERROR ] make[2]: *** [src/CMakeFiles/main.dir/classify_process.cpp.o] Error 1
+2020-12-27 23:50:46 [ ERROR ] CMakeFiles/Makefile2:85: recipe for target 'src/CMakeFiles/main.dir/all' failed
+2020-12-27 23:50:46 [ ERROR ] make[1]: *** [src/CMakeFiles/main.dir/all] Error 2
+2020-12-27 23:50:46 [ ERROR ] Makefile:129: recipe for target 'all' failed
+2020-12-27 23:50:46 [ ERROR ] make: *** [all] Error 2
+2020-12-27 23:51:09 [ INFO ] Build command: 
+2020-12-27 23:51:09 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/Atlas200DK/build/intermediates && cmake /home/dahu/AscendProjects/Atlas200DK -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo Atlas200DK build successfully.
+2020-12-27 23:51:09 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-27 23:51:09 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-27 23:51:09 [ INFO ] -- Configuring done
+2020-12-27 23:51:09 [ INFO ] -- Generating done
+2020-12-27 23:51:09 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/Atlas200DK/build/intermediates
+2020-12-27 23:51:09 [ INFO ] Scanning dependencies of target main
+2020-12-27 23:51:09 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-27 23:51:12 [ INFO ] [ 40%] Linking CXX executable ../../../out/main
+2020-12-27 23:51:13 [ INFO ] [100%] Built target main
+2020-12-27 23:51:13 [ INFO ] Atlas200DK build successfully.
+2020-12-27 23:53:00 [ INFO ] Build command: 
+2020-12-27 23:53:00 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/Atlas200DK/build/intermediates && cmake /home/dahu/AscendProjects/Atlas200DK -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo Atlas200DK build successfully.
+2020-12-27 23:53:00 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-27 23:53:00 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-27 23:53:00 [ INFO ] -- Configuring done
+2020-12-27 23:53:00 [ INFO ] -- Generating done
+2020-12-27 23:53:00 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/Atlas200DK/build/intermediates
+2020-12-27 23:53:00 [ INFO ] Scanning dependencies of target main
+2020-12-27 23:53:00 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-27 23:53:03 [ INFO ] [ 40%] Linking CXX executable ../../../out/main
+2020-12-27 23:53:03 [ INFO ] [100%] Built target main
+2020-12-27 23:53:03 [ INFO ] Atlas200DK build successfully.
+2020-12-28 00:18:50 [ INFO ] Build command: 
+2020-12-28 00:18:50 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/Atlas200DK/build/intermediates && cmake /home/dahu/AscendProjects/Atlas200DK -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo Atlas200DK build successfully.
+2020-12-28 00:18:50 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-28 00:18:50 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-28 00:18:50 [ INFO ] -- Configuring done
+2020-12-28 00:18:50 [ INFO ] -- Generating done
+2020-12-28 00:18:50 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/Atlas200DK/build/intermediates
+2020-12-28 00:18:50 [ INFO ] Scanning dependencies of target main
+2020-12-28 00:18:50 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-28 00:18:52 [ INFO ] /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp: In member function 'Result ClassifyProcess::Preprocess(const string&)':
+2020-12-28 00:18:52 [ ERROR ] /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:153:44: error: expression cannot be used as a function
+2020-12-28 00:18:52 [ INFO ]          for (int j = 0; j < reiszeMat.cols();j++)    // h
+2020-12-28 00:18:52 [ INFO ]                                             ^
+2020-12-28 00:18:52 [ ERROR ] /home/dahu/AscendProjects/Atlas200DK/src/classify_process.cpp:154:48: error: expression cannot be used as a function
+2020-12-28 00:18:52 [ INFO ]              for (int k = 0; k < reiszeMat.rows(); k++) {  // w
+2020-12-28 00:18:52 [ INFO ]                                                 ^
+2020-12-28 00:18:53 [ ERROR ] src/CMakeFiles/main.dir/build.make:110: recipe for target 'src/CMakeFiles/main.dir/classify_process.cpp.o' failed
+2020-12-28 00:18:53 [ ERROR ] make[2]: *** [src/CMakeFiles/main.dir/classify_process.cpp.o] Error 1
+2020-12-28 00:18:53 [ ERROR ] CMakeFiles/Makefile2:85: recipe for target 'src/CMakeFiles/main.dir/all' failed
+2020-12-28 00:18:53 [ ERROR ] make[1]: *** [src/CMakeFiles/main.dir/all] Error 2
+2020-12-28 00:18:53 [ ERROR ] Makefile:129: recipe for target 'all' failed
+2020-12-28 00:18:53 [ ERROR ] make: *** [all] Error 2
+2020-12-28 00:19:11 [ INFO ] Build command: 
+2020-12-28 00:19:11 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/Atlas200DK/build/intermediates && cmake /home/dahu/AscendProjects/Atlas200DK -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo Atlas200DK build successfully.
+2020-12-28 00:19:11 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-28 00:19:11 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-28 00:19:11 [ INFO ] -- Configuring done
+2020-12-28 00:19:11 [ INFO ] -- Generating done
+2020-12-28 00:19:11 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/Atlas200DK/build/intermediates
+2020-12-28 00:19:11 [ INFO ] Scanning dependencies of target main
+2020-12-28 00:19:11 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-28 00:19:14 [ INFO ] [ 40%] Linking CXX executable ../../../out/main
+2020-12-28 00:19:15 [ INFO ] [100%] Built target main
+2020-12-28 00:19:15 [ INFO ] Atlas200DK build successfully.
+2020-12-28 00:19:47 [ INFO ] Build command: 
+2020-12-28 00:19:47 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/Atlas200DK/build/intermediates && cmake /home/dahu/AscendProjects/Atlas200DK -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo Atlas200DK build successfully.
+2020-12-28 00:19:47 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-28 00:19:47 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-28 00:19:47 [ INFO ] -- Configuring done
+2020-12-28 00:19:47 [ INFO ] -- Generating done
+2020-12-28 00:19:47 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/Atlas200DK/build/intermediates
+2020-12-28 00:19:47 [ INFO ] Scanning dependencies of target main
+2020-12-28 00:19:47 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/main.cpp.o
+2020-12-28 00:19:49 [ INFO ] [ 40%] Linking CXX executable ../../../out/main
+2020-12-28 00:19:49 [ INFO ] [100%] Built target main
+2020-12-28 00:19:49 [ INFO ] Atlas200DK build successfully.
+2020-12-28 00:23:18 [ INFO ] Build command: 
+2020-12-28 00:23:18 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/Atlas200DK/build/intermediates && cmake /home/dahu/AscendProjects/Atlas200DK -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo Atlas200DK build successfully.
+2020-12-28 00:23:18 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-28 00:23:18 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-28 00:23:18 [ INFO ] -- Configuring done
+2020-12-28 00:23:18 [ INFO ] -- Generating done
+2020-12-28 00:23:18 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/Atlas200DK/build/intermediates
+2020-12-28 00:23:18 [ INFO ] Scanning dependencies of target main
+2020-12-28 00:23:18 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-28 00:23:21 [ INFO ] [ 40%] Linking CXX executable ../../../out/main
+2020-12-28 00:23:22 [ INFO ] [100%] Built target main
+2020-12-28 00:23:22 [ INFO ] Atlas200DK build successfully.
+2020-12-28 00:23:49 [ INFO ] Build command: 
+2020-12-28 00:23:49 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/Atlas200DK/build/intermediates && cmake /home/dahu/AscendProjects/Atlas200DK -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo Atlas200DK build successfully.
+2020-12-28 00:23:49 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-28 00:23:49 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-28 00:23:49 [ INFO ] -- Configuring done
+2020-12-28 00:23:49 [ INFO ] -- Generating done
+2020-12-28 00:23:49 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/Atlas200DK/build/intermediates
+2020-12-28 00:23:49 [ INFO ] Scanning dependencies of target main
+2020-12-28 00:23:49 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-28 00:23:52 [ INFO ] [ 40%] Linking CXX executable ../../../out/main
+2020-12-28 00:23:52 [ INFO ] [100%] Built target main
+2020-12-28 00:23:52 [ INFO ] Atlas200DK build successfully.
+2020-12-28 00:31:28 [ INFO ] Build command: 
+2020-12-28 00:31:28 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/Atlas200DK/build/intermediates && cmake /home/dahu/AscendProjects/Atlas200DK -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo Atlas200DK build successfully.
+2020-12-28 00:31:28 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-28 00:31:28 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-28 00:31:28 [ INFO ] -- Configuring done
+2020-12-28 00:31:28 [ INFO ] -- Generating done
+2020-12-28 00:31:28 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/Atlas200DK/build/intermediates
+2020-12-28 00:31:28 [ INFO ] Scanning dependencies of target main
+2020-12-28 00:31:28 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-28 00:31:31 [ INFO ] [ 40%] Linking CXX executable ../../../out/main
+2020-12-28 00:31:31 [ INFO ] [100%] Built target main
+2020-12-28 00:31:31 [ INFO ] Atlas200DK build successfully.
+2020-12-28 00:33:12 [ INFO ] Build command: 
+2020-12-28 00:33:12 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/Atlas200DK/build/intermediates && cmake /home/dahu/AscendProjects/Atlas200DK -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo Atlas200DK build successfully.
+2020-12-28 00:33:12 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-28 00:33:12 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-28 00:33:12 [ INFO ] -- Configuring done
+2020-12-28 00:33:12 [ INFO ] -- Generating done
+2020-12-28 00:33:12 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/Atlas200DK/build/intermediates
+2020-12-28 00:33:12 [ INFO ] Scanning dependencies of target main
+2020-12-28 00:33:12 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-28 00:33:16 [ INFO ] [ 40%] Linking CXX executable ../../../out/main
+2020-12-28 00:33:16 [ INFO ] [100%] Built target main
+2020-12-28 00:33:16 [ INFO ] Atlas200DK build successfully.
+2020-12-28 00:34:24 [ INFO ] Build command: 
+2020-12-28 00:34:24 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/Atlas200DK/build/intermediates && cmake /home/dahu/AscendProjects/Atlas200DK -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo Atlas200DK build successfully.
+2020-12-28 00:34:24 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-28 00:34:24 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-28 00:34:24 [ INFO ] -- Configuring done
+2020-12-28 00:34:24 [ INFO ] -- Generating done
+2020-12-28 00:34:24 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/Atlas200DK/build/intermediates
+2020-12-28 00:34:24 [ INFO ] Scanning dependencies of target main
+2020-12-28 00:34:24 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-28 00:34:27 [ INFO ] [ 40%] Linking CXX executable ../../../out/main
+2020-12-28 00:34:27 [ INFO ] [100%] Built target main
+2020-12-28 00:34:27 [ INFO ] Atlas200DK build successfully.
+2020-12-28 00:38:50 [ INFO ] Build command: 
+2020-12-28 00:38:50 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/Atlas200DK/build/intermediates && cmake /home/dahu/AscendProjects/Atlas200DK -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo Atlas200DK build successfully.
+2020-12-28 00:38:50 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-28 00:38:50 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-28 00:38:50 [ INFO ] -- Configuring done
+2020-12-28 00:38:50 [ INFO ] -- Generating done
+2020-12-28 00:38:50 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/Atlas200DK/build/intermediates
+2020-12-28 00:38:50 [ INFO ] Scanning dependencies of target main
+2020-12-28 00:38:50 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-28 00:38:53 [ INFO ] [ 40%] Linking CXX executable ../../../out/main
+2020-12-28 00:38:54 [ INFO ] [100%] Built target main
+2020-12-28 00:38:54 [ INFO ] Atlas200DK build successfully.
+2020-12-28 00:45:42 [ INFO ] Build command: 
+2020-12-28 00:45:42 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/Atlas200DK/build/intermediates && cmake /home/dahu/AscendProjects/Atlas200DK -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo Atlas200DK build successfully.
+2020-12-28 00:45:42 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-28 00:45:42 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-28 00:45:42 [ INFO ] -- Configuring done
+2020-12-28 00:45:42 [ INFO ] -- Generating done
+2020-12-28 00:45:42 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/Atlas200DK/build/intermediates
+2020-12-28 00:45:42 [ INFO ] Scanning dependencies of target main
+2020-12-28 00:45:42 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-28 00:45:45 [ INFO ] [ 40%] Linking CXX executable ../../../out/main
+2020-12-28 00:45:45 [ INFO ] [100%] Built target main
+2020-12-28 00:45:45 [ INFO ] Atlas200DK build successfully.
+2020-12-28 01:04:42 [ INFO ] Build command: 
+2020-12-28 01:04:42 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/Atlas200DK/build/intermediates && cmake /home/dahu/AscendProjects/Atlas200DK -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo Atlas200DK build successfully.
+2020-12-28 01:04:42 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-28 01:04:42 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-28 01:04:42 [ INFO ] -- Configuring done
+2020-12-28 01:04:42 [ INFO ] -- Generating done
+2020-12-28 01:04:42 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/Atlas200DK/build/intermediates
+2020-12-28 01:04:42 [ INFO ] Scanning dependencies of target main
+2020-12-28 01:04:42 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-28 01:04:45 [ INFO ] [ 40%] Building CXX object src/CMakeFiles/main.dir/main.cpp.o
+2020-12-28 01:04:47 [ INFO ] [ 60%] Linking CXX executable ../../../out/main
+2020-12-28 01:04:47 [ INFO ] [100%] Built target main
+2020-12-28 01:04:47 [ INFO ] Atlas200DK build successfully.
+2020-12-28 01:20:23 [ INFO ] Build command: 
+2020-12-28 01:20:23 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/Atlas200DK/build/intermediates && cmake /home/dahu/AscendProjects/Atlas200DK -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo Atlas200DK build successfully.
+2020-12-28 01:20:23 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-28 01:20:23 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-28 01:20:23 [ INFO ] -- Configuring done
+2020-12-28 01:20:23 [ INFO ] -- Generating done
+2020-12-28 01:20:23 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/Atlas200DK/build/intermediates
+2020-12-28 01:20:23 [ INFO ] Scanning dependencies of target main
+2020-12-28 01:20:23 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/main.cpp.o
+2020-12-28 01:20:25 [ INFO ] [ 40%] Linking CXX executable ../../../out/main
+2020-12-28 01:20:25 [ INFO ] [100%] Built target main
+2020-12-28 01:20:25 [ INFO ] Atlas200DK build successfully.

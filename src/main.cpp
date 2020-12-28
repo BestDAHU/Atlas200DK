@@ -28,7 +28,7 @@ using namespace std;
 namespace {
 uint32_t kModelWidth = 512;
 uint32_t kModelHeight = 512;
-const char* kModelPath = "../model/mssd512_voc.om";
+const char* kModelPath = "../model/mssd512_voc_float32.om";
 }
 
 int main(int argc, char *argv[]) {

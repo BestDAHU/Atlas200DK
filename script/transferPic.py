@@ -24,6 +24,7 @@ def process(input_path):
 
     outputName = input_path.split('.')[0] + ".bin"
     result.tofile(outputName)
+    print("image to bin flie!")
 
 if __name__ == "__main__":
     images = os.listdir(r'./')
