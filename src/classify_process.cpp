@@ -234,11 +234,11 @@ Result ClassifyProcess::Postprocess(const string& origImageFile,
     void* data1 = GetInferenceOutputItem(dataSize1, modelOutput,1);
     if (data == nullptr) return FAILED;
     int *intData = reinterpret_cast<int*>(data);
-    cout<<intData[0]<<intData[1]<<intData[2]<<endl;
+    cout<<"output[0]:"<<intData[0]<<endl;
     float *floatData = reinterpret_cast<float*>(data1);
     for(int i =0;i<intData[0];i++){
         int step = i*8;
-        cout<<"ceshi2:"<<floatData[step]<<" "<<floatData[step + 1]<<" "<<floatData[step + 2]<<" "<<floatData[step + 3]<<" "<<floatData[step + 4]<<" "<<floatData[step + 5]<<" "<<floatData[step + 6]<<endl;
+        cout<<"output[1]_"<<i+1<<":"<<floatData[step]<<" "<<floatData[step + 1]<<" "<<floatData[step + 2]<<" "<<floatData[step + 3]<<" "<<floatData[step + 4]<<" "<<floatData[step + 5]<<" "<<floatData[step + 6]<<endl;
     }
 
     cv::Mat resultImage = cv::imread(origImageFile, CV_LOAD_IMAGE_COLOR);

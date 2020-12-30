@@ -1391,3 +1391,145 @@
 2020-12-28 01:20:25 [ INFO ] [ 40%] Linking CXX executable ../../../out/main
 2020-12-28 01:20:25 [ INFO ] [100%] Built target main
 2020-12-28 01:20:25 [ INFO ] Atlas200DK build successfully.
+2020-12-28 18:46:13 [ INFO ] Build command: 
+2020-12-28 18:46:13 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/Atlas200DK/build/intermediates && rm -rf * && cmake /home/dahu/AscendProjects/Atlas200DK -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo Atlas200DK build successfully.
+2020-12-28 18:46:14 [ INFO ] -- The C compiler identification is GNU 7.5.0
+2020-12-28 18:46:14 [ INFO ] -- The CXX compiler identification is GNU 7.5.0
+2020-12-28 18:46:15 [ INFO ] -- Check for working C compiler: /usr/bin/cc
+2020-12-28 18:46:15 [ INFO ] -- Check for working C compiler: /usr/bin/cc -- works
+2020-12-28 18:46:15 [ INFO ] -- Detecting C compiler ABI info
+2020-12-28 18:46:15 [ INFO ] -- Detecting C compiler ABI info - done
+2020-12-28 18:46:15 [ INFO ] -- Detecting C compile features
+2020-12-28 18:46:15 [ INFO ] -- Detecting C compile features - done
+2020-12-28 18:46:15 [ INFO ] -- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++
+2020-12-28 18:46:15 [ INFO ] -- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++ -- works
+2020-12-28 18:46:15 [ INFO ] -- Detecting CXX compiler ABI info
+2020-12-28 18:46:16 [ INFO ] -- Detecting CXX compiler ABI info - done
+2020-12-28 18:46:16 [ INFO ] -- Detecting CXX compile features
+2020-12-28 18:46:16 [ INFO ] -- Detecting CXX compile features - done
+2020-12-28 18:46:16 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-28 18:46:16 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-28 18:46:16 [ INFO ] -- Configuring done
+2020-12-28 18:46:16 [ INFO ] -- Generating done
+2020-12-28 18:46:16 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/Atlas200DK/build/intermediates
+2020-12-28 18:46:16 [ INFO ] Scanning dependencies of target main
+2020-12-28 18:46:16 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/utils.cpp.o
+2020-12-28 18:46:20 [ INFO ] [ 40%] Building CXX object src/CMakeFiles/main.dir/model_process.cpp.o
+2020-12-28 18:46:22 [ INFO ] [ 60%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-28 18:46:25 [ INFO ] [ 80%] Building CXX object src/CMakeFiles/main.dir/main.cpp.o
+2020-12-28 18:46:27 [ INFO ] [100%] Linking CXX executable ../../../out/main
+2020-12-28 18:46:27 [ INFO ] [100%] Built target main
+2020-12-28 18:46:27 [ INFO ] Atlas200DK build successfully.
+2020-12-28 18:52:47 [ INFO ] Build command: 
+2020-12-28 18:52:47 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/Atlas200DK/build/intermediates && cmake /home/dahu/AscendProjects/Atlas200DK -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo Atlas200DK build successfully.
+2020-12-28 18:52:47 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-28 18:52:47 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-28 18:52:47 [ INFO ] -- Configuring done
+2020-12-28 18:52:47 [ INFO ] -- Generating done
+2020-12-28 18:52:47 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/Atlas200DK/build/intermediates
+2020-12-28 18:52:47 [ INFO ] [100%] Built target main
+2020-12-28 18:52:47 [ INFO ] Atlas200DK build successfully.
+2020-12-28 18:53:52 [ INFO ] Build command: 
+2020-12-28 18:53:52 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/Atlas200DK/build/intermediates && cmake /home/dahu/AscendProjects/Atlas200DK -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo Atlas200DK build successfully.
+2020-12-28 18:53:52 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-28 18:53:52 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-28 18:53:52 [ INFO ] -- Configuring done
+2020-12-28 18:53:52 [ INFO ] -- Generating done
+2020-12-28 18:53:52 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/Atlas200DK/build/intermediates
+2020-12-28 18:53:52 [ INFO ] [100%] Built target main
+2020-12-28 18:53:52 [ INFO ] Atlas200DK build successfully.
+2020-12-28 18:59:19 [ INFO ] Build command: 
+2020-12-28 18:59:19 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/Atlas200DK/build/intermediates && cmake /home/dahu/AscendProjects/Atlas200DK -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo Atlas200DK build successfully.
+2020-12-28 18:59:19 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-28 18:59:19 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-28 18:59:19 [ INFO ] -- Configuring done
+2020-12-28 18:59:19 [ INFO ] -- Generating done
+2020-12-28 18:59:19 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/Atlas200DK/build/intermediates
+2020-12-28 18:59:20 [ INFO ] [100%] Built target main
+2020-12-28 18:59:20 [ INFO ] Atlas200DK build successfully.
+2020-12-28 19:06:42 [ INFO ] Build command: 
+2020-12-28 19:06:42 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/Atlas200DK/build/intermediates && cmake /home/dahu/AscendProjects/Atlas200DK -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo Atlas200DK build successfully.
+2020-12-28 19:06:42 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-28 19:06:42 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-28 19:06:42 [ INFO ] -- Configuring done
+2020-12-28 19:06:42 [ INFO ] -- Generating done
+2020-12-28 19:06:42 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/Atlas200DK/build/intermediates
+2020-12-28 19:06:42 [ INFO ] [100%] Built target main
+2020-12-28 19:06:42 [ INFO ] Atlas200DK build successfully.
+2020-12-28 19:08:54 [ INFO ] Build command: 
+2020-12-28 19:08:54 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/Atlas200DK/build/intermediates && cmake /home/dahu/AscendProjects/Atlas200DK -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo Atlas200DK build successfully.
+2020-12-28 19:08:54 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-28 19:08:54 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-28 19:08:54 [ INFO ] -- Configuring done
+2020-12-28 19:08:54 [ INFO ] -- Generating done
+2020-12-28 19:08:54 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/Atlas200DK/build/intermediates
+2020-12-28 19:08:54 [ INFO ] [100%] Built target main
+2020-12-28 19:08:54 [ INFO ] Atlas200DK build successfully.
+2020-12-28 19:09:04 [ INFO ] Build command: 
+2020-12-28 19:09:05 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/Atlas200DK/build/intermediates && cmake /home/dahu/AscendProjects/Atlas200DK -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo Atlas200DK build successfully.
+2020-12-28 19:09:05 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-28 19:09:05 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-28 19:09:05 [ INFO ] -- Configuring done
+2020-12-28 19:09:05 [ INFO ] -- Generating done
+2020-12-28 19:09:05 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/Atlas200DK/build/intermediates
+2020-12-28 19:09:05 [ INFO ] [100%] Built target main
+2020-12-28 19:09:05 [ INFO ] Atlas200DK build successfully.
+2020-12-28 19:14:44 [ INFO ] Build command: 
+2020-12-28 19:14:44 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/Atlas200DK/build/intermediates && cmake /home/dahu/AscendProjects/Atlas200DK -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo Atlas200DK build successfully.
+2020-12-28 19:14:44 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-28 19:14:44 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-28 19:14:44 [ INFO ] -- Configuring done
+2020-12-28 19:14:44 [ INFO ] -- Generating done
+2020-12-28 19:14:44 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/Atlas200DK/build/intermediates
+2020-12-28 19:14:44 [ INFO ] [100%] Built target main
+2020-12-28 19:14:44 [ INFO ] Atlas200DK build successfully.
+2020-12-28 19:22:07 [ INFO ] Build command: 
+2020-12-28 19:22:07 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/Atlas200DK/build/intermediates && cmake /home/dahu/AscendProjects/Atlas200DK -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo Atlas200DK build successfully.
+2020-12-28 19:22:07 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-28 19:22:07 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-28 19:22:07 [ INFO ] -- Configuring done
+2020-12-28 19:22:07 [ INFO ] -- Generating done
+2020-12-28 19:22:07 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/Atlas200DK/build/intermediates
+2020-12-28 19:22:08 [ INFO ] [100%] Built target main
+2020-12-28 19:22:08 [ INFO ] Atlas200DK build successfully.
+2020-12-30 02:25:38 [ INFO ] Build command: 
+2020-12-30 02:25:38 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/Atlas200DK/build/intermediates && rm -rf * && cmake /home/dahu/AscendProjects/Atlas200DK -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo Atlas200DK build successfully.
+2020-12-30 02:25:38 [ INFO ] -- The C compiler identification is GNU 7.5.0
+2020-12-30 02:25:39 [ INFO ] -- The CXX compiler identification is GNU 7.5.0
+2020-12-30 02:25:39 [ INFO ] -- Check for working C compiler: /usr/bin/cc
+2020-12-30 02:25:39 [ INFO ] -- Check for working C compiler: /usr/bin/cc -- works
+2020-12-30 02:25:39 [ INFO ] -- Detecting C compiler ABI info
+2020-12-30 02:25:39 [ INFO ] -- Detecting C compiler ABI info - done
+2020-12-30 02:25:39 [ INFO ] -- Detecting C compile features
+2020-12-30 02:25:39 [ INFO ] -- Detecting C compile features - done
+2020-12-30 02:25:39 [ INFO ] -- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++
+2020-12-30 02:25:39 [ INFO ] -- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++ -- works
+2020-12-30 02:25:39 [ INFO ] -- Detecting CXX compiler ABI info
+2020-12-30 02:25:39 [ INFO ] -- Detecting CXX compiler ABI info - done
+2020-12-30 02:25:39 [ INFO ] -- Detecting CXX compile features
+2020-12-30 02:25:40 [ INFO ] -- Detecting CXX compile features - done
+2020-12-30 02:25:40 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-30 02:25:40 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-30 02:25:40 [ INFO ] -- Configuring done
+2020-12-30 02:25:40 [ INFO ] -- Generating done
+2020-12-30 02:25:40 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/Atlas200DK/build/intermediates
+2020-12-30 02:25:40 [ INFO ] Scanning dependencies of target main
+2020-12-30 02:25:40 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/utils.cpp.o
+2020-12-30 02:25:43 [ INFO ] [ 40%] Building CXX object src/CMakeFiles/main.dir/model_process.cpp.o
+2020-12-30 02:25:45 [ INFO ] [ 60%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-30 02:25:47 [ INFO ] [ 80%] Building CXX object src/CMakeFiles/main.dir/main.cpp.o
+2020-12-30 02:25:49 [ INFO ] [100%] Linking CXX executable ../../../out/main
+2020-12-30 02:25:50 [ INFO ] [100%] Built target main
+2020-12-30 02:25:50 [ INFO ] Atlas200DK build successfully.
+2020-12-30 02:28:59 [ INFO ] Build command: 
+2020-12-30 02:28:59 [ INFO ] export DDK_PATH=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64 && export NPU_HOST_LIB=/home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub && export LANG="C" && cd /home/dahu/AscendProjects/Atlas200DK/build/intermediates && cmake /home/dahu/AscendProjects/Atlas200DK -DCMAKE_SKIP_RPATH=TRUE -Dtarget= -DCMAKE_CXX_COMPILER=aarch64-linux-gnu-g++ && make && echo Atlas200DK build successfully.
+2020-12-30 02:28:59 [ INFO ] -- env INC_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64
+2020-12-30 02:28:59 [ INFO ] -- env LIB_PATH: /home/dahu/Ascend/ascend-toolkit/20.1.rc1/acllib_linux.aarch64/acllib/lib64/stub
+2020-12-30 02:28:59 [ INFO ] -- Configuring done
+2020-12-30 02:28:59 [ INFO ] -- Generating done
+2020-12-30 02:28:59 [ INFO ] -- Build files have been written to: /home/dahu/AscendProjects/Atlas200DK/build/intermediates
+2020-12-30 02:28:59 [ INFO ] Scanning dependencies of target main
+2020-12-30 02:28:59 [ INFO ] [ 20%] Building CXX object src/CMakeFiles/main.dir/classify_process.cpp.o
+2020-12-30 02:29:02 [ INFO ] [ 40%] Linking CXX executable ../../../out/main
+2020-12-30 02:29:03 [ INFO ] [100%] Built target main
+2020-12-30 02:29:03 [ INFO ] Atlas200DK build successfully.
